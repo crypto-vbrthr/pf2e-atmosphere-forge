@@ -10,6 +10,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound3"
     ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell3"
+    ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail2",
@@ -26,6 +31,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell3"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail1",
@@ -44,6 +54,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound3"
     ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell3"
+    ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail2",
@@ -60,6 +75,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell3"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail1",

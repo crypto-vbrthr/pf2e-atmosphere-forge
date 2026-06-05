@@ -1,0 +1,90 @@
+{
+  "calm": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail3"
+    ]
+  },
+  "normal": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail3"
+    ]
+  },
+  "tense": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail3"
+    ]
+  },
+  "nightmare": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail3"
+    ]
+  }
+}

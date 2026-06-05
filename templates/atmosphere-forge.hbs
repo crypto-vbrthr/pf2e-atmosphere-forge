@@ -22,6 +22,42 @@
         <input type="range" name="intensity" min="0" max="100" value="{{selectedIntensity}}" />
       </div>
 
+      <hr />
+
+      <h3>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Title"}}</h3>
+
+      <div class="form-group atmosphere-forge-checkbox-row">
+        <label>
+          <input type="checkbox" name="useWeather" {{#if useWeather}}checked{{/if}} />
+          {{localize "PF2EATMOSPHEREFORGE.SceneParameters.UseWeather"}}
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Weather"}}</label>
+        <select name="weather">
+          {{#each weatherOptions}}
+            <option value="{{this.id}}" {{#if (eq this.id ../selectedWeather)}}selected{{/if}}>{{this.label}}</option>
+          {{/each}}
+        </select>
+      </div>
+
+      <div class="form-group atmosphere-forge-checkbox-row">
+        <label>
+          <input type="checkbox" name="useTimeOfDay" {{#if useTimeOfDay}}checked{{/if}} />
+          {{localize "PF2EATMOSPHEREFORGE.SceneParameters.UseTimeOfDay"}}
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDay"}}</label>
+        <select name="timeOfDay">
+          {{#each timeOfDayOptions}}
+            <option value="{{this.id}}" {{#if (eq this.id ../selectedTimeOfDay)}}selected{{/if}}>{{this.label}}</option>
+          {{/each}}
+        </select>
+      </div>
+
       <div class="atmosphere-forge-status">
         {{#if weatherForgeActive}}
           <i class="fa-solid fa-cloud-sun"></i>
@@ -40,6 +76,12 @@
         <div class="atmosphere-forge-meta">
           <span>{{result.environmentLabel}}</span>
           <span>{{result.intensityLabel}}</span>
+          {{#if result.sceneParameters.useWeather}}
+            <span>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Weather"}}: {{result.sceneParameters.weatherLabel}}</span>
+          {{/if}}
+          {{#if result.sceneParameters.useTimeOfDay}}
+            <span>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDay"}}: {{result.sceneParameters.timeOfDayLabel}}</span>
+          {{/if}}
         </div>
 
         <div class="atmosphere-forge-section-list">

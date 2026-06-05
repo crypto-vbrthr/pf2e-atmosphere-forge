@@ -10,6 +10,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Sound3"
     ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Smell3"
+    ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Detail2",
@@ -26,6 +31,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Smell3"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Detail1",
@@ -44,6 +54,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Sound3"
     ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Smell3"
+    ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Detail2",
@@ -60,6 +75,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Smell3"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Detail1",

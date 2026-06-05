@@ -5,6 +5,14 @@ const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
 export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(ApplicationV2) {
   #lastResult = null;
+  #formState = {
+    environment: "forest",
+    intensity: 50,
+    useWeather: false,
+    weather: "auto",
+    useTimeOfDay: false,
+    timeOfDay: "auto"
+  };
 
   static DEFAULT_OPTIONS = {
     id: "pf2e-atmosphere-forge-app",
@@ -15,7 +23,7 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       resizable: true
     },
     position: {
-      width: 800,
+      width: 860,
       height: "auto"
     },
     classes: ["pf2e-atmosphere-forge"],
@@ -39,11 +47,17 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       moduleId: MODULE_ID,
       weatherForgeActive,
       environments: AtmosphereService.getAvailableEnvironments(),
-      selectedEnvironment: this.#lastResult?.environment ?? "forest",
-      selectedIntensity: this.#lastResult?.intensity ?? 50,
+      weatherOptions: AtmosphereService.getWeatherOptions(),
+      timeOfDayOptions: AtmosphereService.getTimeOfDayOptions(),
+      selectedEnvironment: this.#formState.environment,
+      selectedIntensity: this.#formState.intensity,
+      useWeather: this.#formState.useWeather,
+      selectedWeather: this.#formState.weather,
+      useTimeOfDay: this.#formState.useTimeOfDay,
+      selectedTimeOfDay: this.#formState.timeOfDay,
       result: this.#lastResult,
       previewText: this.#lastResult?.text ?? game.i18n.localize("PF2EATMOSPHEREFORGE.Preview.Empty"),
-      canSend: Boolean(this.#lastResult?.text)
+      canSend: Boolean(this.#lastResult?.sections?.length)
     };
   }
 
@@ -52,10 +66,17 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
 
     const app = this;
     const form = target.closest("form");
-    const environment = form?.querySelector("[name='environment']")?.value ?? "forest";
-    const intensity = form?.querySelector("[name='intensity']")?.value ?? 50;
 
-    app.#lastResult = await AtmosphereService.generate({ environment, intensity });
+    app.#formState = {
+      environment: form?.querySelector("[name='environment']")?.value ?? "forest",
+      intensity: Number(form?.querySelector("[name='intensity']")?.value ?? 50),
+      useWeather: form?.querySelector("[name='useWeather']")?.checked ?? false,
+      weather: form?.querySelector("[name='weather']")?.value ?? "auto",
+      useTimeOfDay: form?.querySelector("[name='useTimeOfDay']")?.checked ?? false,
+      timeOfDay: form?.querySelector("[name='timeOfDay']")?.value ?? "auto"
+    };
+
+    app.#lastResult = await AtmosphereService.generate(app.#formState);
     app.render({ force: true });
   }
 
@@ -79,6 +100,7 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       title: game.i18n.localize("PF2EATMOSPHEREFORGE.Chat.Title"),
       environmentLabel: this.#lastResult.environmentLabel,
       intensityLabel: this.#lastResult.intensityLabel,
+      sceneParameters: this.#lastResult.sceneParameters,
       sections: this.#lastResult.sections
     });
 

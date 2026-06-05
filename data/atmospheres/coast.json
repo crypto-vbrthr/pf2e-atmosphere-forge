@@ -1,0 +1,90 @@
+{
+  "calm": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail3"
+    ]
+  },
+  "normal": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail3"
+    ]
+  },
+  "tense": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail3"
+    ]
+  },
+  "nightmare": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail3"
+    ]
+  }
+}

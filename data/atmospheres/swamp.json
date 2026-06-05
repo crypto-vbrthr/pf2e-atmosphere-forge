@@ -1,0 +1,90 @@
+{
+  "calm": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail3"
+    ]
+  },
+  "normal": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail3"
+    ]
+  },
+  "tense": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail3"
+    ]
+  },
+  "nightmare": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail3"
+    ]
+  }
+}

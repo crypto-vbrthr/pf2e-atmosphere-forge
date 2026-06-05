@@ -1,0 +1,90 @@
+{
+  "calm": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.calm.Detail3"
+    ]
+  },
+  "normal": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.normal.Detail3"
+    ]
+  },
+  "tense": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.tense.Detail3"
+    ]
+  },
+  "nightmare": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.nightmare.Detail3"
+    ]
+  }
+}

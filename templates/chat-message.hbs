@@ -4,6 +4,12 @@
   <div class="atmosphere-forge-chat-meta">
     <span>{{environmentLabel}}</span>
     <span>{{intensityLabel}}</span>
+    {{#if sceneParameters.useWeather}}
+      <span>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Weather"}}: {{sceneParameters.weatherLabel}}</span>
+    {{/if}}
+    {{#if sceneParameters.useTimeOfDay}}
+      <span>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDay"}}: {{sceneParameters.timeOfDayLabel}}</span>
+    {{/if}}
   </div>
 
   <div class="atmosphere-forge-chat-section-list">

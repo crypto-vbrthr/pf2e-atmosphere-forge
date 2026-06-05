@@ -10,6 +10,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Sound3"
     ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Smell3"
+    ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail2",
@@ -26,6 +31,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Smell3"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail1",
@@ -44,6 +54,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Sound3"
     ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Smell3"
+    ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail2",
@@ -60,6 +75,11 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Sound2",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Smell3"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail1",

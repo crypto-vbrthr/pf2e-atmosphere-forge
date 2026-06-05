@@ -1,0 +1,90 @@
+{
+  "calm": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail3"
+    ]
+  },
+  "normal": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail3"
+    ]
+  },
+  "tense": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail3"
+    ]
+  },
+  "nightmare": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound3"
+    ],
+    "smell": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail3"
+    ]
+  }
+}

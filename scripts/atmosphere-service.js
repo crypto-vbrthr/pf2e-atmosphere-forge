@@ -2,7 +2,7 @@ const MODULE_ID = "pf2e-atmosphere-forge";
 
 export class AtmosphereService {
   static #data = new Map();
-  static #environments = ["forest", "city", "dungeon", "wilderness"];
+  static #environments = ["forest", "city", "dungeon", "wilderness", "village", "ruin", "cave", "temple", "coast", "mountain", "swamp"];
 
   static async initialize() {
     await this.#loadAtmosphereData();
@@ -15,7 +15,21 @@ export class AtmosphereService {
     }));
   }
 
-  static async generate({ environment = "forest", intensity = 50 } = {}) {
+  static getWeatherOptions() {
+    return ["auto", "clear", "cloudy", "rain", "storm", "fog", "snow"].map((id) => ({
+      id,
+      label: game.i18n.localize(`PF2EATMOSPHEREFORGE.Weather.${this.#capitalize(id)}`)
+    }));
+  }
+
+  static getTimeOfDayOptions() {
+    return ["auto", "morning", "midday", "afternoon", "evening", "night"].map((id) => ({
+      id,
+      label: game.i18n.localize(`PF2EATMOSPHEREFORGE.TimeOfDay.${this.#capitalize(id)}`)
+    }));
+  }
+
+  static async generate({ environment = "forest", intensity = 50, useWeather = false, weather = "auto", useTimeOfDay = false, timeOfDay = "auto" } = {}) {
     if (!this.#data.size) await this.#loadAtmosphereData();
 
     const intensityKey = this.#getIntensityKey(Number(intensity));
@@ -24,6 +38,7 @@ export class AtmosphereService {
     const selectedKeys = {
       atmosphere: this.#pick(atmosphere?.[intensityKey]?.atmosphere),
       sound: this.#pick(atmosphere?.[intensityKey]?.sound),
+      smell: this.#pick(atmosphere?.[intensityKey]?.smell),
       detail: this.#pick(atmosphere?.[intensityKey]?.detail)
     };
 
@@ -41,6 +56,12 @@ export class AtmosphereService {
         text: this.#localizeKey(selectedKeys.sound)
       },
       {
+        id: "smell",
+        icon: "fa-solid fa-wind",
+        label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Smell"),
+        text: this.#localizeKey(selectedKeys.smell)
+      },
+      {
         id: "detail",
         icon: "fa-solid fa-eye",
         label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Detail"),
@@ -52,6 +73,15 @@ export class AtmosphereService {
       .map((section) => `${section.label}\n${section.text}`)
       .join("\n\n");
 
+    const sceneParameters = {
+      useWeather: Boolean(useWeather),
+      weather,
+      weatherLabel: game.i18n.localize(`PF2EATMOSPHEREFORGE.Weather.${this.#capitalize(weather)}`),
+      useTimeOfDay: Boolean(useTimeOfDay),
+      timeOfDay,
+      timeOfDayLabel: game.i18n.localize(`PF2EATMOSPHEREFORGE.TimeOfDay.${this.#capitalize(timeOfDay)}`)
+    };
+
     return {
       environment,
       intensity,
@@ -60,6 +90,7 @@ export class AtmosphereService {
       intensityLabel: game.i18n.localize(`PF2EATMOSPHEREFORGE.Intensity.${intensityKey}`),
       sections,
       selectedKeys,
+      sceneParameters,
       text: text || game.i18n.localize("PF2EATMOSPHEREFORGE.Preview.GenerationFailed")
     };
   }
