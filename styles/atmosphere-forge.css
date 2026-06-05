@@ -1,0 +1,57 @@
+.pf2e-atmosphere-forge .window-content {
+  padding: 0;
+}
+
+.atmosphere-forge-window {
+  padding: 1rem;
+}
+
+.atmosphere-forge-header {
+  margin-bottom: 1rem;
+}
+
+.atmosphere-forge-header h2 {
+  margin: 0;
+}
+
+.atmosphere-forge-header p {
+  margin: 0.25rem 0 0;
+  opacity: 0.8;
+}
+
+.atmosphere-forge-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.35fr 0.9fr;
+  gap: 0.75rem;
+}
+
+.atmosphere-forge-panel {
+  border: 1px solid var(--color-border-light-primary);
+  border-radius: 6px;
+  padding: 0.75rem;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.atmosphere-forge-panel h3 {
+  margin-top: 0;
+}
+
+.atmosphere-forge-preview {
+  min-height: 180px;
+  white-space: pre-line;
+  line-height: 1.45;
+  padding: 0.75rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.atmosphere-forge-status {
+  margin-top: 1rem;
+  font-size: 0.9em;
+  opacity: 0.85;
+}
+
+.atmosphere-forge-panel button {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}

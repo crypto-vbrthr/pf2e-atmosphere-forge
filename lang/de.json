@@ -1,0 +1,21 @@
+{
+  "PF2EATMOSPHEREFORGE.Title": "Atmosphere Forge",
+  "PF2EATMOSPHEREFORGE.Subtitle": "Schnelle Atmosphärenbeschreibungen für die aktuelle Szene.",
+  "PF2EATMOSPHEREFORGE.Controls.Open": "Atmosphere Forge öffnen",
+  "PF2EATMOSPHEREFORGE.Settings.Title": "Einstellungen",
+  "PF2EATMOSPHEREFORGE.Settings.Environment": "Umgebung",
+  "PF2EATMOSPHEREFORGE.Settings.Intensity": "Intensität",
+  "PF2EATMOSPHEREFORGE.Environment.Forest": "Wald",
+  "PF2EATMOSPHEREFORGE.Environment.City": "Stadt",
+  "PF2EATMOSPHEREFORGE.Environment.Dungeon": "Dungeon",
+  "PF2EATMOSPHEREFORGE.Environment.Wilderness": "Wildnis",
+  "PF2EATMOSPHEREFORGE.WeatherForge.Active": "Weather Forge erkannt",
+  "PF2EATMOSPHEREFORGE.WeatherForge.Inactive": "Weather Forge nicht aktiv",
+  "PF2EATMOSPHEREFORGE.Preview.Title": "Vorschau",
+  "PF2EATMOSPHEREFORGE.Preview.Empty": "Noch keine Atmosphäre generiert.",
+  "PF2EATMOSPHEREFORGE.Preview.Dummy": "Kalter Nebel hängt in der Luft. Für einen Moment wirkt die Umgebung stiller, als sie sein sollte.",
+  "PF2EATMOSPHEREFORGE.Actions.Title": "Aktionen",
+  "PF2EATMOSPHEREFORGE.Actions.Generate": "Generieren",
+  "PF2EATMOSPHEREFORGE.Actions.SendGM": "Als GM Whisper senden",
+  "PF2EATMOSPHEREFORGE.Actions.SendPublic": "Öffentlich senden"
+}

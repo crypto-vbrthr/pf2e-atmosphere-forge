@@ -1,0 +1,61 @@
+<section class="atmosphere-forge-window">
+  <header class="atmosphere-forge-header">
+    <h2>{{localize "PF2EATMOSPHEREFORGE.Title"}}</h2>
+    <p>{{localize "PF2EATMOSPHEREFORGE.Subtitle"}}</p>
+  </header>
+
+  <div class="atmosphere-forge-grid">
+    <aside class="atmosphere-forge-panel">
+      <h3>{{localize "PF2EATMOSPHEREFORGE.Settings.Title"}}</h3>
+
+      <div class="form-group">
+        <label>{{localize "PF2EATMOSPHEREFORGE.Settings.Environment"}}</label>
+        <select name="environment">
+          <option value="forest">{{localize "PF2EATMOSPHEREFORGE.Environment.Forest"}}</option>
+          <option value="city">{{localize "PF2EATMOSPHEREFORGE.Environment.City"}}</option>
+          <option value="dungeon">{{localize "PF2EATMOSPHEREFORGE.Environment.Dungeon"}}</option>
+          <option value="wilderness">{{localize "PF2EATMOSPHEREFORGE.Environment.Wilderness"}}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>{{localize "PF2EATMOSPHEREFORGE.Settings.Intensity"}}</label>
+        <input type="range" name="intensity" min="0" max="100" value="50" />
+      </div>
+
+      <div class="atmosphere-forge-status">
+        {{#if weatherForgeActive}}
+          <i class="fa-solid fa-cloud-sun"></i>
+          {{localize "PF2EATMOSPHEREFORGE.WeatherForge.Active"}}
+        {{else}}
+          <i class="fa-solid fa-cloud"></i>
+          {{localize "PF2EATMOSPHEREFORGE.WeatherForge.Inactive"}}
+        {{/if}}
+      </div>
+    </aside>
+
+    <main class="atmosphere-forge-panel atmosphere-forge-preview-panel">
+      <h3>{{localize "PF2EATMOSPHEREFORGE.Preview.Title"}}</h3>
+      <div class="atmosphere-forge-preview" data-preview>{{previewText}}</div>
+    </main>
+
+    <aside class="atmosphere-forge-panel">
+      <h3>{{localize "PF2EATMOSPHEREFORGE.Actions.Title"}}</h3>
+
+      <button type="button" data-action="generate">
+        <i class="fa-solid fa-dice-d20"></i>
+        {{localize "PF2EATMOSPHEREFORGE.Actions.Generate"}}
+      </button>
+
+      <button type="button" disabled>
+        <i class="fa-solid fa-user-secret"></i>
+        {{localize "PF2EATMOSPHEREFORGE.Actions.SendGM"}}
+      </button>
+
+      <button type="button" disabled>
+        <i class="fa-solid fa-comments"></i>
+        {{localize "PF2EATMOSPHEREFORGE.Actions.SendPublic"}}
+      </button>
+    </aside>
+  </div>
+</section>

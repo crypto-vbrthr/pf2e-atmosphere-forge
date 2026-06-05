@@ -1,0 +1,21 @@
+{
+  "PF2EATMOSPHEREFORGE.Title": "Atmosphere Forge",
+  "PF2EATMOSPHEREFORGE.Subtitle": "Quick atmosphere descriptions for the current scene.",
+  "PF2EATMOSPHEREFORGE.Controls.Open": "Open Atmosphere Forge",
+  "PF2EATMOSPHEREFORGE.Settings.Title": "Settings",
+  "PF2EATMOSPHEREFORGE.Settings.Environment": "Environment",
+  "PF2EATMOSPHEREFORGE.Settings.Intensity": "Intensity",
+  "PF2EATMOSPHEREFORGE.Environment.Forest": "Forest",
+  "PF2EATMOSPHEREFORGE.Environment.City": "City",
+  "PF2EATMOSPHEREFORGE.Environment.Dungeon": "Dungeon",
+  "PF2EATMOSPHEREFORGE.Environment.Wilderness": "Wilderness",
+  "PF2EATMOSPHEREFORGE.WeatherForge.Active": "Weather Forge detected",
+  "PF2EATMOSPHEREFORGE.WeatherForge.Inactive": "Weather Forge inactive",
+  "PF2EATMOSPHEREFORGE.Preview.Title": "Preview",
+  "PF2EATMOSPHEREFORGE.Preview.Empty": "No atmosphere generated yet.",
+  "PF2EATMOSPHEREFORGE.Preview.Dummy": "Cold mist hangs in the air. For a moment, the surroundings feel quieter than they should.",
+  "PF2EATMOSPHEREFORGE.Actions.Title": "Actions",
+  "PF2EATMOSPHEREFORGE.Actions.Generate": "Generate",
+  "PF2EATMOSPHEREFORGE.Actions.SendGM": "Send as GM Whisper",
+  "PF2EATMOSPHEREFORGE.Actions.SendPublic": "Send publicly"
+}
