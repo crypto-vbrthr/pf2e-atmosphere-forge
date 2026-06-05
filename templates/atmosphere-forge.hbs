@@ -35,11 +35,14 @@
 
       <div class="form-group">
         <label>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Weather"}}</label>
-        <select name="weather">
+        <select name="weather" {{#unless useWeather}}disabled{{/unless}}>
           {{#each weatherOptions}}
             <option value="{{this.id}}" {{#if (eq this.id ../selectedWeather)}}selected{{/if}}>{{this.label}}</option>
           {{/each}}
         </select>
+        {{#unless useWeather}}
+          <p class="atmosphere-forge-help">{{localize "PF2EATMOSPHEREFORGE.SceneParameters.WeatherDisabledHint"}}</p>
+        {{/unless}}
       </div>
 
       <div class="form-group atmosphere-forge-checkbox-row">
@@ -51,11 +54,14 @@
 
       <div class="form-group">
         <label>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDay"}}</label>
-        <select name="timeOfDay">
+        <select name="timeOfDay" {{#unless useTimeOfDay}}disabled{{/unless}}>
           {{#each timeOfDayOptions}}
             <option value="{{this.id}}" {{#if (eq this.id ../selectedTimeOfDay)}}selected{{/if}}>{{this.label}}</option>
           {{/each}}
         </select>
+        {{#unless useTimeOfDay}}
+          <p class="atmosphere-forge-help">{{localize "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDayDisabledHint"}}</p>
+        {{/unless}}
       </div>
 
       <div class="atmosphere-forge-status">

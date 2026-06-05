@@ -23,7 +23,7 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       resizable: true
     },
     position: {
-      width: 860,
+      width: 900,
       height: "auto"
     },
     classes: ["pf2e-atmosphere-forge"],
@@ -59,6 +59,27 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       previewText: this.#lastResult?.text ?? game.i18n.localize("PF2EATMOSPHEREFORGE.Preview.Empty"),
       canSend: Boolean(this.#lastResult?.sections?.length)
     };
+  }
+
+
+  _onRender(context, options) {
+    super._onRender(context, options);
+
+    const form = this.element;
+    const useWeather = form.querySelector("[name='useWeather']");
+    const weather = form.querySelector("[name='weather']");
+    const useTimeOfDay = form.querySelector("[name='useTimeOfDay']");
+    const timeOfDay = form.querySelector("[name='timeOfDay']");
+
+    const syncSceneParameterControls = () => {
+      if (weather && useWeather) weather.disabled = !useWeather.checked;
+      if (timeOfDay && useTimeOfDay) timeOfDay.disabled = !useTimeOfDay.checked;
+    };
+
+    useWeather?.addEventListener("change", syncSceneParameterControls);
+    useTimeOfDay?.addEventListener("change", syncSceneParameterControls);
+
+    syncSceneParameterControls();
   }
 
   static async #onGenerate(event, target) {

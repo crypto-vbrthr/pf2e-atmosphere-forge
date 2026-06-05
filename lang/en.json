@@ -580,5 +580,7 @@
   "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell3": "It smells of opened graves and sweet flower sap.",
   "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail1": "A handprint appears on the water’s surface and sinks.",
   "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail2": "A tree is hung with tiny bone charms.",
-  "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail3": "A handprint appears on the water’s surface and sinks."
+  "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail3": "A handprint appears on the water’s surface and sinks.",
+  "PF2EATMOSPHEREFORGE.SceneParameters.WeatherDisabledHint": "Enable to consider weather during generation later.",
+  "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDayDisabledHint": "Enable to consider time of day during generation later."
 }

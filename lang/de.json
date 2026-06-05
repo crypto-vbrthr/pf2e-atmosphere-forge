@@ -580,5 +580,7 @@
   "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell3": "Es riecht nach aufgebrochenem Grab und süßem Blütensaft.",
   "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail1": "Eine Handspur erscheint auf der Wasseroberfläche und sinkt hinab.",
   "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail2": "Ein Baum hängt voller kleiner Knochenanhänger.",
-  "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail3": "Eine Handspur erscheint auf der Wasseroberfläche und sinkt hinab."
+  "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail3": "Eine Handspur erscheint auf der Wasseroberfläche und sinkt hinab.",
+  "PF2EATMOSPHEREFORGE.SceneParameters.WeatherDisabledHint": "Aktivieren, um Wetter später bei der Generierung zu berücksichtigen.",
+  "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDayDisabledHint": "Aktivieren, um die Tageszeit später bei der Generierung zu berücksichtigen."
 }
