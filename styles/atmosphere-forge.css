@@ -37,12 +37,16 @@
 }
 
 .atmosphere-forge-preview {
-  min-height: 180px;
+  min-height: 200px;
   white-space: pre-line;
   line-height: 1.45;
   padding: 0.75rem;
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.08);
+}
+
+.atmosphere-forge-empty {
+  opacity: 0.75;
 }
 
 .atmosphere-forge-status {
@@ -54,4 +58,53 @@
 .atmosphere-forge-panel button {
   width: 100%;
   margin-bottom: 0.5rem;
+}
+
+.atmosphere-forge-meta,
+.atmosphere-forge-chat-meta {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+  font-size: 0.9em;
+}
+
+.atmosphere-forge-meta span,
+.atmosphere-forge-chat-meta span {
+  border: 1px solid var(--color-border-light-primary);
+  border-radius: 999px;
+  padding: 0.1rem 0.45rem;
+}
+
+.atmosphere-forge-section-list,
+.atmosphere-forge-chat-section-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.atmosphere-forge-section,
+.atmosphere-forge-chat-section {
+  padding: 0.65rem;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--color-border-light-primary);
+}
+
+.atmosphere-forge-section h4,
+.atmosphere-forge-chat-section h4 {
+  margin: 0 0 0.35rem;
+  font-weight: 700;
+}
+
+.atmosphere-forge-section p,
+.atmosphere-forge-chat-section p {
+  margin: 0;
+  white-space: pre-line;
+  line-height: 1.4;
+}
+
+.pf2e-atmosphere-forge-chat h3 {
+  margin: 0 0 0.35rem;
 }

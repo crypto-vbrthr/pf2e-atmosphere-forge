@@ -1,0 +1,70 @@
+{
+  "calm": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.calm.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.calm.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.calm.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.calm.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.calm.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.calm.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.calm.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.calm.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.calm.Detail3"
+    ]
+  },
+  "normal": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.normal.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.normal.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.normal.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.normal.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.normal.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.normal.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.normal.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.normal.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.normal.Detail3"
+    ]
+  },
+  "tense": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.tense.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.tense.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.tense.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.tense.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.tense.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.tense.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.tense.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.tense.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.tense.Detail3"
+    ]
+  },
+  "nightmare": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.nightmare.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.nightmare.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.nightmare.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.nightmare.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.nightmare.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.nightmare.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.nightmare.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.nightmare.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.city.nightmare.Detail3"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+<div class="pf2e-atmosphere-forge-chat">
+  <h3>{{title}}</h3>
+
+  <div class="atmosphere-forge-chat-meta">
+    <span>{{environmentLabel}}</span>
+    <span>{{intensityLabel}}</span>
+  </div>
+
+  <div class="atmosphere-forge-chat-section-list">
+    {{#each sections}}
+      <section class="atmosphere-forge-chat-section atmosphere-forge-section-{{this.id}}">
+        <h4>
+          <i class="{{this.icon}}"></i>
+          {{this.label}}
+        </h4>
+        <p>{{this.text}}</p>
+      </section>
+    {{/each}}
+  </div>
+</div>

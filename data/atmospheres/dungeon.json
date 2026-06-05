@@ -1,0 +1,70 @@
+{
+  "calm": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail3"
+    ]
+  },
+  "normal": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail3"
+    ]
+  },
+  "tense": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail3"
+    ]
+  },
+  "nightmare": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail3"
+    ]
+  }
+}

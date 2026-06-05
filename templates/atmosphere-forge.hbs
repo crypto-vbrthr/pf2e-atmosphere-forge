@@ -11,16 +11,15 @@
       <div class="form-group">
         <label>{{localize "PF2EATMOSPHEREFORGE.Settings.Environment"}}</label>
         <select name="environment">
-          <option value="forest">{{localize "PF2EATMOSPHEREFORGE.Environment.Forest"}}</option>
-          <option value="city">{{localize "PF2EATMOSPHEREFORGE.Environment.City"}}</option>
-          <option value="dungeon">{{localize "PF2EATMOSPHEREFORGE.Environment.Dungeon"}}</option>
-          <option value="wilderness">{{localize "PF2EATMOSPHEREFORGE.Environment.Wilderness"}}</option>
+          {{#each environments}}
+            <option value="{{this.id}}" {{#if (eq this.id ../selectedEnvironment)}}selected{{/if}}>{{this.label}}</option>
+          {{/each}}
         </select>
       </div>
 
       <div class="form-group">
         <label>{{localize "PF2EATMOSPHEREFORGE.Settings.Intensity"}}</label>
-        <input type="range" name="intensity" min="0" max="100" value="50" />
+        <input type="range" name="intensity" min="0" max="100" value="{{selectedIntensity}}" />
       </div>
 
       <div class="atmosphere-forge-status">
@@ -36,7 +35,27 @@
 
     <main class="atmosphere-forge-panel atmosphere-forge-preview-panel">
       <h3>{{localize "PF2EATMOSPHEREFORGE.Preview.Title"}}</h3>
-      <div class="atmosphere-forge-preview" data-preview>{{previewText}}</div>
+
+      {{#if result}}
+        <div class="atmosphere-forge-meta">
+          <span>{{result.environmentLabel}}</span>
+          <span>{{result.intensityLabel}}</span>
+        </div>
+
+        <div class="atmosphere-forge-section-list">
+          {{#each result.sections}}
+            <section class="atmosphere-forge-section atmosphere-forge-section-{{this.id}}">
+              <h4>
+                <i class="{{this.icon}}"></i>
+                {{this.label}}
+              </h4>
+              <p>{{this.text}}</p>
+            </section>
+          {{/each}}
+        </div>
+      {{else}}
+        <div class="atmosphere-forge-preview atmosphere-forge-empty" data-preview>{{previewText}}</div>
+      {{/if}}
     </main>
 
     <aside class="atmosphere-forge-panel">
@@ -47,12 +66,12 @@
         {{localize "PF2EATMOSPHEREFORGE.Actions.Generate"}}
       </button>
 
-      <button type="button" disabled>
+      <button type="button" data-action="sendGM" {{#unless canSend}}disabled{{/unless}}>
         <i class="fa-solid fa-user-secret"></i>
         {{localize "PF2EATMOSPHEREFORGE.Actions.SendGM"}}
       </button>
 
-      <button type="button" disabled>
+      <button type="button" data-action="sendPublic" {{#unless canSend}}disabled{{/unless}}>
         <i class="fa-solid fa-comments"></i>
         {{localize "PF2EATMOSPHEREFORGE.Actions.SendPublic"}}
       </button>

@@ -2,7 +2,7 @@
   "id": "pf2e-atmosphere-forge",
   "title": "PF2E Atmosphere Forge",
   "description": "A lightweight atmosphere generator for Foundry VTT, designed for quick scene descriptions and optional integration with PF2E Weather Forge.",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "authors": [
     {
       "name": "crypto-vbrthr",

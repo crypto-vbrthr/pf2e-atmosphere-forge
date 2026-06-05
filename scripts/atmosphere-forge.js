@@ -1,4 +1,5 @@
 import { PF2eAtmosphereForgeApp } from "./atmosphere-forge-app.js";
+import { AtmosphereService } from "./atmosphere-service.js";
 
 const MODULE_ID = "pf2e-atmosphere-forge";
 const TOOL_NAME = "pf2e-atmosphere-forge";
@@ -6,8 +7,9 @@ const TOOL_NAME = "pf2e-atmosphere-forge";
 class PF2eAtmosphereForge {
   static ID = MODULE_ID;
 
-  static initialize() {
+  static async initialize() {
     console.log(`${MODULE_ID} | Initializing`);
+    await AtmosphereService.initialize();
   }
 
   static openApp() {

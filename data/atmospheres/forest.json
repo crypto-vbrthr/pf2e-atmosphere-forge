@@ -1,0 +1,70 @@
+{
+  "calm": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.calm.Detail3"
+    ]
+  },
+  "normal": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.normal.Detail3"
+    ]
+  },
+  "tense": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.tense.Detail3"
+    ]
+  },
+  "nightmare": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.forest.nightmare.Detail3"
+    ]
+  }
+}

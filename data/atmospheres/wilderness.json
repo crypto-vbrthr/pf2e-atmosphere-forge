@@ -1,0 +1,70 @@
+{
+  "calm": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail3"
+    ]
+  },
+  "normal": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail3"
+    ]
+  },
+  "tense": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail3"
+    ]
+  },
+  "nightmare": {
+    "atmosphere": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Atmosphere1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Atmosphere2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Atmosphere3"
+    ],
+    "sound": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Sound1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Sound2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Sound3"
+    ],
+    "detail": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail3"
+    ]
+  }
+}
