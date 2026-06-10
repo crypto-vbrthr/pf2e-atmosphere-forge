@@ -86,5 +86,53 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail2",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail3"
     ]
+  },
+  "weather": {
+    "clear": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.2"
+    ],
+    "cloudy": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.2"
+    ],
+    "rain": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.2"
+    ],
+    "storm": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.2"
+    ],
+    "fog": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.2"
+    ],
+    "snow": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.2"
+    ]
+  },
+  "timeOfDay": {
+    "morning": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.2"
+    ],
+    "midday": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.2"
+    ],
+    "afternoon": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.2"
+    ],
+    "evening": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.2"
+    ],
+    "night": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.2"
+    ]
   }
 }

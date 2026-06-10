@@ -1,10 +1,12 @@
 import { AtmosphereService } from "./atmosphere-service.js";
+import { WeatherContextService } from "./weather-context-service.js";
 
 const MODULE_ID = "pf2e-atmosphere-forge";
 const { ApplicationV2, HandlebarsApplicationMixin } = foundry.applications.api;
 
 export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(ApplicationV2) {
   #lastResult = null;
+  #weatherContext = WeatherContextService.getContext();
   #formState = {
     environment: "forest",
     intensity: 50,
@@ -30,7 +32,8 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
     actions: {
       generate: PF2eAtmosphereForgeApp.#onGenerate,
       sendGM: PF2eAtmosphereForgeApp.#onSendGM,
-      sendPublic: PF2eAtmosphereForgeApp.#onSendPublic
+      sendPublic: PF2eAtmosphereForgeApp.#onSendPublic,
+      reloadWeather: PF2eAtmosphereForgeApp.#onReloadWeather
     }
   };
 
@@ -41,20 +44,22 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
   };
 
   async _prepareContext(options) {
-    const weatherForgeActive = game.modules.get("pf2e-weather-forge")?.active ?? false;
+    const weatherForgeActive = WeatherContextService.isWeatherForgeActive();
+    const weatherContext = this.#weatherContext;
 
     return {
       moduleId: MODULE_ID,
       weatherForgeActive,
+      weatherContext,
       environments: AtmosphereService.getAvailableEnvironments(),
       weatherOptions: AtmosphereService.getWeatherOptions(),
       timeOfDayOptions: AtmosphereService.getTimeOfDayOptions(),
       selectedEnvironment: this.#formState.environment,
       selectedIntensity: this.#formState.intensity,
       useWeather: this.#formState.useWeather,
-      selectedWeather: this.#formState.weather,
+      selectedWeather: this.#formState.weatherSelection ?? this.#formState.weather,
       useTimeOfDay: this.#formState.useTimeOfDay,
-      selectedTimeOfDay: this.#formState.timeOfDay,
+      selectedTimeOfDay: this.#formState.timeOfDaySelection ?? this.#formState.timeOfDay,
       result: this.#lastResult,
       previewText: this.#lastResult?.text ?? game.i18n.localize("PF2EATMOSPHEREFORGE.Preview.Empty"),
       canSend: Boolean(this.#lastResult?.sections?.length)
@@ -88,17 +93,31 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
     const app = this;
     const form = target.closest("form");
 
+    const weatherSelection = form?.querySelector("[name='weather']")?.value ?? "auto";
+    const timeOfDaySelection = form?.querySelector("[name='timeOfDay']")?.value ?? "auto";
+
     app.#formState = {
       environment: form?.querySelector("[name='environment']")?.value ?? "forest",
       intensity: Number(form?.querySelector("[name='intensity']")?.value ?? 50),
       useWeather: form?.querySelector("[name='useWeather']")?.checked ?? false,
-      weather: form?.querySelector("[name='weather']")?.value ?? "auto",
+      weather: weatherSelection === "auto" ? app.#weatherContext.weather : weatherSelection,
+      weatherSelection,
       useTimeOfDay: form?.querySelector("[name='useTimeOfDay']")?.checked ?? false,
-      timeOfDay: form?.querySelector("[name='timeOfDay']")?.value ?? "auto"
+      timeOfDay: timeOfDaySelection === "auto" ? app.#weatherContext.timeOfDay : timeOfDaySelection,
+      timeOfDaySelection
     };
 
     app.#lastResult = await AtmosphereService.generate(app.#formState);
     app.render({ force: true });
+  }
+
+
+  static async #onReloadWeather(event, target) {
+    event.preventDefault();
+
+    this.#weatherContext = WeatherContextService.getContext();
+    ui.notifications.info(this.#weatherContext.label);
+    this.render({ force: true });
   }
 
   static async #onSendGM(event, target) {

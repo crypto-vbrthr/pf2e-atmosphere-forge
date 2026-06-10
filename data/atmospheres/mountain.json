@@ -86,5 +86,53 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail2",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail3"
     ]
+  },
+  "weather": {
+    "clear": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.2"
+    ],
+    "cloudy": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.2"
+    ],
+    "rain": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.2"
+    ],
+    "storm": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.2"
+    ],
+    "fog": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.2"
+    ],
+    "snow": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.2"
+    ]
+  },
+  "timeOfDay": {
+    "morning": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.2"
+    ],
+    "midday": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.2"
+    ],
+    "afternoon": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.2"
+    ],
+    "evening": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.2"
+    ],
+    "night": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.2"
+    ]
   }
 }

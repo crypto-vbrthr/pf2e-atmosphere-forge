@@ -1,5 +1,6 @@
 import { PF2eAtmosphereForgeApp } from "./atmosphere-forge-app.js";
 import { AtmosphereService } from "./atmosphere-service.js";
+import { WeatherContextService } from "./weather-context-service.js";
 
 const MODULE_ID = "pf2e-atmosphere-forge";
 const TOOL_NAME = "pf2e-atmosphere-forge";
@@ -9,6 +10,7 @@ class PF2eAtmosphereForge {
 
   static async initialize() {
     console.log(`${MODULE_ID} | Initializing`);
+    WeatherContextService.registerSettings();
     await AtmosphereService.initialize();
   }
 
@@ -73,3 +75,20 @@ Hooks.on("getSceneControlButtons", (controls) => {
 });
 
 globalThis.PF2eAtmosphereForge = PF2eAtmosphereForge;
+
+
+Hooks.on("pf2e-weather-forge.weatherUpdated", (weatherData) => {
+  WeatherContextService.cacheWeatherContext(weatherData);
+});
+
+Hooks.on("pf2e-weather-forge.forecastUpdated", (weatherData) => {
+  WeatherContextService.cacheWeatherContext(weatherData);
+});
+
+Hooks.on("pf2eWeatherForgeWeatherUpdated", (weatherData) => {
+  WeatherContextService.cacheWeatherContext(weatherData);
+});
+
+Hooks.on("pf2eWeatherForgeForecastUpdated", (weatherData) => {
+  WeatherContextService.cacheWeatherContext(weatherData);
+});

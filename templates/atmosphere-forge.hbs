@@ -68,6 +68,17 @@
         {{#if weatherForgeActive}}
           <i class="fa-solid fa-cloud-sun"></i>
           {{localize "PF2EATMOSPHEREFORGE.WeatherForge.Active"}}
+
+          <div class="atmosphere-forge-weather-context">
+            <div>{{weatherContext.label}}</div>
+            <div>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Weather"}}: {{weatherContext.weatherLabel}}</div>
+            <div>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDay"}}: {{weatherContext.timeOfDayLabel}}</div>
+          </div>
+
+          <button type="button" data-action="reloadWeather" class="atmosphere-forge-secondary-button">
+            <i class="fa-solid fa-rotate"></i>
+            {{localize "PF2EATMOSPHEREFORGE.Actions.ReloadWeather"}}
+          </button>
         {{else}}
           <i class="fa-solid fa-cloud"></i>
           {{localize "PF2EATMOSPHEREFORGE.WeatherForge.Inactive"}}

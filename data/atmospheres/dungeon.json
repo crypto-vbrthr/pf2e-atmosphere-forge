@@ -86,5 +86,53 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail2",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail3"
     ]
+  },
+  "weather": {
+    "clear": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.2"
+    ],
+    "cloudy": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.2"
+    ],
+    "rain": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.2"
+    ],
+    "storm": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.2"
+    ],
+    "fog": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.2"
+    ],
+    "snow": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.2"
+    ]
+  },
+  "timeOfDay": {
+    "morning": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.2"
+    ],
+    "midday": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.2"
+    ],
+    "afternoon": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.2"
+    ],
+    "evening": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.2"
+    ],
+    "night": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.2"
+    ]
   }
 }

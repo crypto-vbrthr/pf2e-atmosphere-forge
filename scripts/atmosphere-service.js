@@ -39,6 +39,8 @@ export class AtmosphereService {
       atmosphere: this.#pick(atmosphere?.[intensityKey]?.atmosphere),
       sound: this.#pick(atmosphere?.[intensityKey]?.sound),
       smell: this.#pick(atmosphere?.[intensityKey]?.smell),
+      weather: useWeather ? this.#pick(atmosphere?.weather?.[weather]) : "",
+      timeOfDay: useTimeOfDay ? this.#pick(atmosphere?.timeOfDay?.[timeOfDay]) : "",
       detail: this.#pick(atmosphere?.[intensityKey]?.detail)
     };
 
@@ -60,6 +62,18 @@ export class AtmosphereService {
         icon: "fa-solid fa-wind",
         label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Smell"),
         text: this.#localizeKey(selectedKeys.smell)
+      },
+      {
+        id: "weather",
+        icon: "fa-solid fa-cloud",
+        label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Weather"),
+        text: this.#localizeKey(selectedKeys.weather)
+      },
+      {
+        id: "timeOfDay",
+        icon: "fa-solid fa-clock",
+        label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.TimeOfDay"),
+        text: this.#localizeKey(selectedKeys.timeOfDay)
       },
       {
         id: "detail",
