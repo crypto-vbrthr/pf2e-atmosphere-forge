@@ -29,7 +29,14 @@ export class AtmosphereService {
     }));
   }
 
-  static async generate({ environment = "forest", intensity = 50, useWeather = false, weather = "auto", useTimeOfDay = false, timeOfDay = "auto" } = {}) {
+  static getSeasonOptions() {
+    return ["auto", "spring", "summer", "autumn", "winter"].map((id) => ({
+      id,
+      label: game.i18n.localize(`PF2EATMOSPHEREFORGE.Season.${this.#capitalize(id)}`)
+    }));
+  }
+
+  static async generate({ environment = "forest", intensity = 50, useWeather = false, weather = "auto", useTimeOfDay = false, timeOfDay = "auto", useSeason = false, season = "auto" } = {}) {
     if (!this.#data.size) await this.#loadAtmosphereData();
 
     const intensityKey = this.#getIntensityKey(Number(intensity));
@@ -41,6 +48,7 @@ export class AtmosphereService {
       smell: this.#pick(atmosphere?.[intensityKey]?.smell),
       weather: useWeather ? this.#pick(atmosphere?.weather?.[weather]) : "",
       timeOfDay: useTimeOfDay ? this.#pick(atmosphere?.timeOfDay?.[timeOfDay]) : "",
+      season: useSeason ? this.#pick(atmosphere?.season?.[season]) : "",
       detail: this.#pick(atmosphere?.[intensityKey]?.detail)
     };
 
@@ -76,6 +84,12 @@ export class AtmosphereService {
         text: this.#localizeKey(selectedKeys.timeOfDay)
       },
       {
+        id: "season",
+        icon: "fa-solid fa-leaf",
+        label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Season"),
+        text: this.#localizeKey(selectedKeys.season)
+      },
+      {
         id: "detail",
         icon: "fa-solid fa-eye",
         label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Detail"),
@@ -93,7 +107,10 @@ export class AtmosphereService {
       weatherLabel: game.i18n.localize(`PF2EATMOSPHEREFORGE.Weather.${this.#capitalize(weather)}`),
       useTimeOfDay: Boolean(useTimeOfDay),
       timeOfDay,
-      timeOfDayLabel: game.i18n.localize(`PF2EATMOSPHEREFORGE.TimeOfDay.${this.#capitalize(timeOfDay)}`)
+      timeOfDayLabel: game.i18n.localize(`PF2EATMOSPHEREFORGE.TimeOfDay.${this.#capitalize(timeOfDay)}`),
+      useSeason: Boolean(useSeason),
+      season,
+      seasonLabel: game.i18n.localize(`PF2EATMOSPHEREFORGE.Season.${this.#capitalize(season)}`)
     };
 
     return {
@@ -106,6 +123,50 @@ export class AtmosphereService {
       selectedKeys,
       sceneParameters,
       text: text || game.i18n.localize("PF2EATMOSPHEREFORGE.Preview.GenerationFailed")
+    };
+  }
+
+
+  static async rerollSection(previousResult, sectionId) {
+    if (!previousResult) return null;
+    if (!this.#data.size) await this.#loadAtmosphereData();
+
+    const environment = previousResult.environment ?? "forest";
+    const intensityKey = previousResult.intensityKey ?? this.#getIntensityKey(Number(previousResult.intensity ?? 50));
+    const atmosphere = this.#data.get(environment) ?? this.#data.get("forest");
+    const sceneParameters = previousResult.sceneParameters ?? {};
+
+    const keyPath = {
+      atmosphere: atmosphere?.[intensityKey]?.atmosphere,
+      sound: atmosphere?.[intensityKey]?.sound,
+      smell: atmosphere?.[intensityKey]?.smell,
+      weather: sceneParameters.useWeather ? atmosphere?.weather?.[sceneParameters.weather] : [],
+      timeOfDay: sceneParameters.useTimeOfDay ? atmosphere?.timeOfDay?.[sceneParameters.timeOfDay] : [],
+      season: sceneParameters.useSeason ? atmosphere?.season?.[sceneParameters.season] : [],
+      detail: atmosphere?.[intensityKey]?.detail
+    }[sectionId];
+
+    const newKey = this.#pick(keyPath);
+    const newText = this.#localizeKey(newKey);
+    if (!newText) return previousResult;
+
+    const updatedSections = previousResult.sections.map((section) => {
+      if (section.id !== sectionId) return section;
+      return { ...section, text: newText };
+    });
+
+    const text = updatedSections
+      .map((section) => `${section.label}\n${section.text}`)
+      .join("\n\n");
+
+    return {
+      ...previousResult,
+      sections: updatedSections,
+      selectedKeys: {
+        ...previousResult.selectedKeys,
+        [sectionId]: newKey
+      },
+      text
     };
   }
 

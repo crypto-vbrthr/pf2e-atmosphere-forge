@@ -134,5 +134,23 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.cave.timeOfDay.night.1",
       "PF2EATMOSPHEREFORGE.Atmospheres.cave.timeOfDay.night.2"
     ]
+  },
+  "season": {
+    "spring": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.cave.season.spring.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.cave.season.spring.2"
+    ],
+    "summer": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.cave.season.summer.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.cave.season.summer.2"
+    ],
+    "autumn": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.cave.season.autumn.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.cave.season.autumn.2"
+    ],
+    "winter": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.cave.season.winter.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.cave.season.winter.2"
+    ]
   }
 }

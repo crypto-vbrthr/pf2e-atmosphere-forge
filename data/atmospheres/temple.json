@@ -134,5 +134,23 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.temple.timeOfDay.night.1",
       "PF2EATMOSPHEREFORGE.Atmospheres.temple.timeOfDay.night.2"
     ]
+  },
+  "season": {
+    "spring": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.temple.season.spring.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.temple.season.spring.2"
+    ],
+    "summer": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.temple.season.summer.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.temple.season.summer.2"
+    ],
+    "autumn": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.temple.season.autumn.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.temple.season.autumn.2"
+    ],
+    "winter": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.temple.season.winter.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.temple.season.winter.2"
+    ]
   }
 }

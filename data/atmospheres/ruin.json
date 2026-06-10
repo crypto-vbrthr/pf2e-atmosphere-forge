@@ -134,5 +134,23 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.ruin.timeOfDay.night.1",
       "PF2EATMOSPHEREFORGE.Atmospheres.ruin.timeOfDay.night.2"
     ]
+  },
+  "season": {
+    "spring": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.season.spring.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.season.spring.2"
+    ],
+    "summer": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.season.summer.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.season.summer.2"
+    ],
+    "autumn": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.season.autumn.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.season.autumn.2"
+    ],
+    "winter": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.season.winter.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.ruin.season.winter.2"
+    ]
   }
 }

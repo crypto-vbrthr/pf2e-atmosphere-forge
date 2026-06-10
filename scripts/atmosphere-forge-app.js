@@ -13,7 +13,9 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
     useWeather: false,
     weather: "auto",
     useTimeOfDay: false,
-    timeOfDay: "auto"
+    timeOfDay: "auto",
+    useSeason: false,
+    season: "auto"
   };
 
   static DEFAULT_OPTIONS = {
@@ -33,7 +35,8 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       generate: PF2eAtmosphereForgeApp.#onGenerate,
       sendGM: PF2eAtmosphereForgeApp.#onSendGM,
       sendPublic: PF2eAtmosphereForgeApp.#onSendPublic,
-      reloadWeather: PF2eAtmosphereForgeApp.#onReloadWeather
+      reloadWeather: PF2eAtmosphereForgeApp.#onReloadWeather,
+      rerollSection: PF2eAtmosphereForgeApp.#onRerollSection
     }
   };
 
@@ -54,12 +57,15 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       environments: AtmosphereService.getAvailableEnvironments(),
       weatherOptions: AtmosphereService.getWeatherOptions(),
       timeOfDayOptions: AtmosphereService.getTimeOfDayOptions(),
+      seasonOptions: AtmosphereService.getSeasonOptions(),
       selectedEnvironment: this.#formState.environment,
       selectedIntensity: this.#formState.intensity,
       useWeather: this.#formState.useWeather,
       selectedWeather: this.#formState.weatherSelection ?? this.#formState.weather,
       useTimeOfDay: this.#formState.useTimeOfDay,
       selectedTimeOfDay: this.#formState.timeOfDaySelection ?? this.#formState.timeOfDay,
+      useSeason: this.#formState.useSeason,
+      selectedSeason: this.#formState.seasonSelection ?? this.#formState.season,
       result: this.#lastResult,
       previewText: this.#lastResult?.text ?? game.i18n.localize("PF2EATMOSPHEREFORGE.Preview.Empty"),
       canSend: Boolean(this.#lastResult?.sections?.length)
@@ -75,14 +81,18 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
     const weather = form.querySelector("[name='weather']");
     const useTimeOfDay = form.querySelector("[name='useTimeOfDay']");
     const timeOfDay = form.querySelector("[name='timeOfDay']");
+    const useSeason = form.querySelector("[name='useSeason']");
+    const season = form.querySelector("[name='season']");
 
     const syncSceneParameterControls = () => {
       if (weather && useWeather) weather.disabled = !useWeather.checked;
       if (timeOfDay && useTimeOfDay) timeOfDay.disabled = !useTimeOfDay.checked;
+      if (season && useSeason) season.disabled = !useSeason.checked;
     };
 
     useWeather?.addEventListener("change", syncSceneParameterControls);
     useTimeOfDay?.addEventListener("change", syncSceneParameterControls);
+    useSeason?.addEventListener("change", syncSceneParameterControls);
 
     syncSceneParameterControls();
   }
@@ -95,6 +105,7 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
 
     const weatherSelection = form?.querySelector("[name='weather']")?.value ?? "auto";
     const timeOfDaySelection = form?.querySelector("[name='timeOfDay']")?.value ?? "auto";
+    const seasonSelection = form?.querySelector("[name='season']")?.value ?? "auto";
 
     app.#formState = {
       environment: form?.querySelector("[name='environment']")?.value ?? "forest",
@@ -104,13 +115,27 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       weatherSelection,
       useTimeOfDay: form?.querySelector("[name='useTimeOfDay']")?.checked ?? false,
       timeOfDay: timeOfDaySelection === "auto" ? app.#weatherContext.timeOfDay : timeOfDaySelection,
-      timeOfDaySelection
+      timeOfDaySelection,
+      useSeason: form?.querySelector("[name='useSeason']")?.checked ?? false,
+      season: seasonSelection === "auto" ? app.#weatherContext.season : seasonSelection,
+      seasonSelection
     };
 
     app.#lastResult = await AtmosphereService.generate(app.#formState);
     app.render({ force: true });
   }
 
+
+
+  static async #onRerollSection(event, target) {
+    event.preventDefault();
+
+    const sectionId = target.dataset.sectionId;
+    if (!sectionId || !this.#lastResult) return;
+
+    this.#lastResult = await AtmosphereService.rerollSection(this.#lastResult, sectionId);
+    this.render({ force: true });
+  }
 
   static async #onReloadWeather(event, target) {
     event.preventDefault();

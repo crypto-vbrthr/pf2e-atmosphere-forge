@@ -41,6 +41,7 @@ export class WeatherContextService {
         source: "manual",
         weather: "auto",
         timeOfDay: "auto",
+        season: "auto",
         labelKey: "PF2EATMOSPHEREFORGE.WeatherContext.NotAvailable"
       });
     }
@@ -60,6 +61,7 @@ export class WeatherContextService {
       source: normalized.found ? "weatherForge" : "weatherForgeUnavailable",
       weather: normalized.weather,
       timeOfDay: normalized.timeOfDay,
+      season: normalized.season,
       raw,
       labelKey: normalized.found
         ? "PF2EATMOSPHEREFORGE.WeatherContext.Loaded"
@@ -67,7 +69,7 @@ export class WeatherContextService {
     });
   }
 
-  static #buildContext({ active, source, weather, timeOfDay, raw = null, labelKey }) {
+  static #buildContext({ active, source, weather, timeOfDay, season = "auto", raw = null, labelKey }) {
     return {
       active,
       source,
@@ -75,6 +77,8 @@ export class WeatherContextService {
       weatherLabel: game.i18n.localize(`PF2EATMOSPHEREFORGE.Weather.${this.#capitalize(weather)}`),
       timeOfDay,
       timeOfDayLabel: game.i18n.localize(`PF2EATMOSPHEREFORGE.TimeOfDay.${this.#capitalize(timeOfDay)}`),
+      season,
+      seasonLabel: game.i18n.localize(`PF2EATMOSPHEREFORGE.Season.${this.#capitalize(season)}`),
       raw,
       label: game.i18n.localize(labelKey)
     };
@@ -263,14 +267,15 @@ export class WeatherContextService {
   }
 
   static #normalize(raw) {
-    if (!raw) return { found: false, weather: "auto", timeOfDay: "auto" };
+    if (!raw) return { found: false, weather: "auto", timeOfDay: "auto", season: "auto" };
 
     const flat = this.#flattenValues(raw).join(" ").toLowerCase();
 
     return {
       found: true,
       weather: this.#normalizeWeather(flat),
-      timeOfDay: this.#normalizeTimeOfDay(flat)
+      timeOfDay: this.#normalizeTimeOfDay(flat),
+      season: this.#normalizeSeason(flat)
     };
   }
 
@@ -309,6 +314,14 @@ export class WeatherContextService {
     if (/(rain|shower|drizzle|regen|niesel|schauer|precipitation|niederschlag)/i.test(value)) return "rain";
     if (/(cloud|overcast|bewölkt|wolken|bedeckt)/i.test(value)) return "cloudy";
     if (/(clear|sun|klar|sonnig|wolkenlos)/i.test(value)) return "clear";
+    return "auto";
+  }
+
+  static #normalizeSeason(value) {
+    if (/(spring|frühling|fruehling|grobtag|desnus|sarenith)/i.test(value)) return "spring";
+    if (/(summer|sommer|erastus|arodus|rova)/i.test(value)) return "summer";
+    if (/(autumn|fall|herbst|lamashan|neth|kuthona)/i.test(value)) return "autumn";
+    if (/(winter|abadius|calistril|pharast)/i.test(value)) return "winter";
     return "auto";
   }
 

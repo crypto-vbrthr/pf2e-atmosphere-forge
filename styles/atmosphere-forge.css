@@ -150,3 +150,17 @@
 .atmosphere-forge-secondary-button {
   margin-top: 0.5rem;
 }
+
+
+.atmosphere-forge-section h4 {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.atmosphere-forge-reroll-section {
+  width: auto !important;
+  margin: 0 0 0 auto !important;
+  padding: 0.15rem 0.35rem;
+  line-height: 1;
+}

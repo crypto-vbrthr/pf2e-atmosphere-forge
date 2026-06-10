@@ -134,5 +134,23 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.2"
     ]
+  },
+  "season": {
+    "spring": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.2"
+    ],
+    "summer": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.2"
+    ],
+    "autumn": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.2"
+    ],
+    "winter": [
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.1",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.2"
+    ]
   }
 }
