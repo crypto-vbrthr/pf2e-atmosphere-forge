@@ -318,11 +318,44 @@ export class WeatherContextService {
   }
 
   static #normalizeSeason(value) {
+    const explicitSeason = this.#extractExplicitSeason(value);
+    if (explicitSeason) return explicitSeason;
+
+    // Order matters here. Weather Forge data may contain option lists or tables
+    // with several season names. Autumn is checked before summer so a current
+    // "Herbst" value is not accidentally overruled by a generic "Sommer" entry.
+    if (/(autumn|fall|herbst|herbt|lamashan|neth|kuthona)/i.test(value)) return "autumn";
+    if (/(winter|abadius|calistril|pharast)/i.test(value)) return "winter";
     if (/(spring|frühling|fruehling|grobtag|desnus|sarenith)/i.test(value)) return "spring";
     if (/(summer|sommer|erastus|arodus|rova)/i.test(value)) return "summer";
-    if (/(autumn|fall|herbst|lamashan|neth|kuthona)/i.test(value)) return "autumn";
-    if (/(winter|abadius|calistril|pharast)/i.test(value)) return "winter";
     return "auto";
+  }
+
+  static #extractExplicitSeason(value) {
+    const patterns = [
+      /(?:currentSeason|current-season|season|jahreszeit|currentJahreszeit|aktuelleJahreszeit|aktuelle-jahreszeit)\s*[:=]\s*["']?(autumn|fall|herbst|herbt|winter|spring|frühling|fruehling|summer|sommer)["']?/i,
+      /(?:currentSeason|current-season|season|jahreszeit|currentJahreszeit|aktuelleJahreszeit|aktuelle-jahreszeit)\s+(autumn|fall|herbst|herbt|winter|spring|frühling|fruehling|summer|sommer)/i
+    ];
+
+    for (const pattern of patterns) {
+      const match = value.match(pattern);
+      if (!match) continue;
+
+      return this.#seasonFromToken(match[1]);
+    }
+
+    return null;
+  }
+
+  static #seasonFromToken(token) {
+    const value = String(token ?? "").toLowerCase();
+
+    if (/(autumn|fall|herbst|herbt)/i.test(value)) return "autumn";
+    if (/(winter)/i.test(value)) return "winter";
+    if (/(spring|frühling|fruehling)/i.test(value)) return "spring";
+    if (/(summer|sommer)/i.test(value)) return "summer";
+
+    return null;
   }
 
   static #normalizeTimeOfDay(value) {
