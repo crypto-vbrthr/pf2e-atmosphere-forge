@@ -141,6 +141,25 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
     event.preventDefault();
 
     this.#weatherContext = WeatherContextService.getContext();
+
+    if (this.#weatherContext.weather && this.#weatherContext.weather !== "auto") {
+      this.#formState.useWeather = true;
+      this.#formState.weather = this.#weatherContext.weather;
+      this.#formState.weatherSelection = this.#weatherContext.weather;
+    }
+
+    if (this.#weatherContext.timeOfDay && this.#weatherContext.timeOfDay !== "auto") {
+      this.#formState.useTimeOfDay = true;
+      this.#formState.timeOfDay = this.#weatherContext.timeOfDay;
+      this.#formState.timeOfDaySelection = this.#weatherContext.timeOfDay;
+    }
+
+    if (this.#weatherContext.season && this.#weatherContext.season !== "auto") {
+      this.#formState.useSeason = true;
+      this.#formState.season = this.#weatherContext.season;
+      this.#formState.seasonSelection = this.#weatherContext.season;
+    }
+
     ui.notifications.info(this.#weatherContext.label);
     this.render({ force: true });
   }
