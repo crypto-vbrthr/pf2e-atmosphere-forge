@@ -3,154 +3,356 @@
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.calm.Detail10"
     ]
   },
   "normal": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.normal.Detail10"
     ]
   },
   "tense": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.tense.Detail10"
     ]
   },
   "nightmare": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.nightmare.Detail10"
     ]
   },
   "weather": {
     "clear": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.clear.8"
     ],
     "cloudy": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.cloudy.8"
     ],
     "rain": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.rain.8"
     ],
     "storm": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.storm.8"
     ],
     "fog": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.fog.8"
     ],
     "snow": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.weather.snow.8"
     ]
   },
   "timeOfDay": {
     "morning": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.morning.8"
     ],
     "midday": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.midday.8"
     ],
     "afternoon": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.afternoon.8"
     ],
     "evening": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.evening.8"
     ],
     "night": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.timeOfDay.night.8"
     ]
   },
   "season": {
     "spring": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.spring.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.spring.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.spring.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.spring.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.spring.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.spring.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.spring.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.spring.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.spring.8"
     ],
     "summer": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.summer.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.summer.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.summer.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.summer.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.summer.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.summer.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.summer.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.summer.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.summer.8"
     ],
     "autumn": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.autumn.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.autumn.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.autumn.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.autumn.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.autumn.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.autumn.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.autumn.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.autumn.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.autumn.8"
     ],
     "winter": [
       "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.winter.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.winter.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.winter.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.winter.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.winter.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.winter.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.winter.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.winter.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.coast.season.winter.8"
     ]
   }
 }

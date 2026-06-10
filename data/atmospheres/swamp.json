@@ -3,154 +3,356 @@
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.calm.Detail10"
     ]
   },
   "normal": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.normal.Detail10"
     ]
   },
   "tense": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.tense.Detail10"
     ]
   },
   "nightmare": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.nightmare.Detail10"
     ]
   },
   "weather": {
     "clear": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.clear.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.clear.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.clear.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.clear.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.clear.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.clear.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.clear.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.clear.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.clear.8"
     ],
     "cloudy": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.cloudy.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.cloudy.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.cloudy.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.cloudy.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.cloudy.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.cloudy.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.cloudy.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.cloudy.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.cloudy.8"
     ],
     "rain": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.rain.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.rain.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.rain.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.rain.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.rain.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.rain.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.rain.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.rain.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.rain.8"
     ],
     "storm": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.storm.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.storm.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.storm.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.storm.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.storm.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.storm.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.storm.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.storm.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.storm.8"
     ],
     "fog": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.fog.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.fog.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.fog.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.fog.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.fog.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.fog.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.fog.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.fog.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.fog.8"
     ],
     "snow": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.snow.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.snow.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.snow.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.snow.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.snow.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.snow.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.snow.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.snow.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.weather.snow.8"
     ]
   },
   "timeOfDay": {
     "morning": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.morning.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.morning.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.morning.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.morning.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.morning.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.morning.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.morning.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.morning.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.morning.8"
     ],
     "midday": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.midday.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.midday.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.midday.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.midday.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.midday.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.midday.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.midday.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.midday.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.midday.8"
     ],
     "afternoon": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.afternoon.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.afternoon.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.afternoon.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.afternoon.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.afternoon.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.afternoon.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.afternoon.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.afternoon.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.afternoon.8"
     ],
     "evening": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.evening.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.evening.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.evening.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.evening.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.evening.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.evening.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.evening.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.evening.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.evening.8"
     ],
     "night": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.night.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.night.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.night.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.night.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.night.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.night.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.night.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.night.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.timeOfDay.night.8"
     ]
   },
   "season": {
     "spring": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.spring.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.spring.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.spring.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.spring.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.spring.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.spring.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.spring.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.spring.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.spring.8"
     ],
     "summer": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.summer.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.summer.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.summer.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.summer.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.summer.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.summer.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.summer.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.summer.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.summer.8"
     ],
     "autumn": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.autumn.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.autumn.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.autumn.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.autumn.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.autumn.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.autumn.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.autumn.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.autumn.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.autumn.8"
     ],
     "winter": [
       "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.winter.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.winter.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.winter.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.winter.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.winter.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.winter.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.winter.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.winter.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.swamp.season.winter.8"
     ]
   }
 }

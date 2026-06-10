@@ -3,154 +3,356 @@
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.calm.Detail10"
     ]
   },
   "normal": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.normal.Detail10"
     ]
   },
   "tense": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.tense.Detail10"
     ]
   },
   "nightmare": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.nightmare.Detail10"
     ]
   },
   "weather": {
     "clear": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.clear.8"
     ],
     "cloudy": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.cloudy.8"
     ],
     "rain": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.rain.8"
     ],
     "storm": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.storm.8"
     ],
     "fog": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.fog.8"
     ],
     "snow": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.weather.snow.8"
     ]
   },
   "timeOfDay": {
     "morning": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.morning.8"
     ],
     "midday": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.midday.8"
     ],
     "afternoon": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.afternoon.8"
     ],
     "evening": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.evening.8"
     ],
     "night": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.timeOfDay.night.8"
     ]
   },
   "season": {
     "spring": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.spring.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.spring.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.spring.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.spring.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.spring.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.spring.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.spring.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.spring.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.spring.8"
     ],
     "summer": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.summer.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.summer.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.summer.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.summer.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.summer.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.summer.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.summer.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.summer.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.summer.8"
     ],
     "autumn": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.autumn.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.autumn.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.autumn.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.autumn.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.autumn.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.autumn.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.autumn.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.autumn.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.autumn.8"
     ],
     "winter": [
       "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.winter.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.winter.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.winter.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.winter.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.winter.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.winter.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.winter.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.winter.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.dungeon.season.winter.8"
     ]
   }
 }

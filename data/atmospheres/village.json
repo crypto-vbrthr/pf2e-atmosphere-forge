@@ -3,154 +3,356 @@
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.calm.Detail10"
     ]
   },
   "normal": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.normal.Detail10"
     ]
   },
   "tense": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.tense.Detail10"
     ]
   },
   "nightmare": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.nightmare.Detail10"
     ]
   },
   "weather": {
     "clear": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.clear.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.clear.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.clear.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.clear.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.clear.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.clear.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.clear.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.clear.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.clear.8"
     ],
     "cloudy": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.cloudy.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.cloudy.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.cloudy.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.cloudy.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.cloudy.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.cloudy.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.cloudy.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.cloudy.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.cloudy.8"
     ],
     "rain": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.rain.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.rain.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.rain.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.rain.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.rain.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.rain.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.rain.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.rain.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.rain.8"
     ],
     "storm": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.storm.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.storm.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.storm.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.storm.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.storm.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.storm.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.storm.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.storm.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.storm.8"
     ],
     "fog": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.fog.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.fog.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.fog.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.fog.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.fog.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.fog.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.fog.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.fog.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.fog.8"
     ],
     "snow": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.snow.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.snow.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.snow.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.snow.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.snow.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.snow.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.snow.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.snow.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.weather.snow.8"
     ]
   },
   "timeOfDay": {
     "morning": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.morning.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.morning.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.morning.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.morning.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.morning.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.morning.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.morning.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.morning.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.morning.8"
     ],
     "midday": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.midday.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.midday.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.midday.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.midday.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.midday.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.midday.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.midday.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.midday.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.midday.8"
     ],
     "afternoon": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.afternoon.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.afternoon.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.afternoon.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.afternoon.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.afternoon.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.afternoon.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.afternoon.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.afternoon.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.afternoon.8"
     ],
     "evening": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.evening.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.evening.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.evening.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.evening.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.evening.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.evening.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.evening.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.evening.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.evening.8"
     ],
     "night": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.timeOfDay.night.8"
     ]
   },
   "season": {
     "spring": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.spring.8"
     ],
     "summer": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.summer.8"
     ],
     "autumn": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.autumn.8"
     ],
     "winter": [
       "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.village.season.winter.8"
     ]
   }
 }

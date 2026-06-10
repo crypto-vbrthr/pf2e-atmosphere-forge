@@ -3,154 +3,356 @@
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.calm.Detail10"
     ]
   },
   "normal": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.normal.Detail10"
     ]
   },
   "tense": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.tense.Detail10"
     ]
   },
   "nightmare": {
     "atmosphere": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Atmosphere10"
     ],
     "sound": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Sound10"
     ],
     "smell": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Smell10"
     ],
     "detail": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail1",
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail3"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail8",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail9",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.nightmare.Detail10"
     ]
   },
   "weather": {
     "clear": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.clear.8"
     ],
     "cloudy": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.cloudy.8"
     ],
     "rain": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.rain.8"
     ],
     "storm": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.storm.8"
     ],
     "fog": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.fog.8"
     ],
     "snow": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.weather.snow.8"
     ]
   },
   "timeOfDay": {
     "morning": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.morning.8"
     ],
     "midday": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.midday.8"
     ],
     "afternoon": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.afternoon.8"
     ],
     "evening": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.evening.8"
     ],
     "night": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.timeOfDay.night.8"
     ]
   },
   "season": {
     "spring": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.spring.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.spring.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.spring.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.spring.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.spring.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.spring.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.spring.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.spring.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.spring.8"
     ],
     "summer": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.summer.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.summer.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.summer.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.summer.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.summer.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.summer.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.summer.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.summer.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.summer.8"
     ],
     "autumn": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.autumn.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.autumn.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.autumn.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.autumn.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.autumn.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.autumn.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.autumn.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.autumn.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.autumn.8"
     ],
     "winter": [
       "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.winter.1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.winter.2"
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.winter.2",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.winter.3",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.winter.4",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.winter.5",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.winter.6",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.winter.7",
+      "PF2EATMOSPHEREFORGE.Atmospheres.mountain.season.winter.8"
     ]
   }
 }
