@@ -27,8 +27,8 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       resizable: true
     },
     position: {
-      width: 900,
-      height: "auto"
+      width: 1100,
+      height: 820
     },
     classes: ["pf2e-atmosphere-forge"],
     actions: {

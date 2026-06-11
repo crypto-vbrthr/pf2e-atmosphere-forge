@@ -164,3 +164,106 @@
   padding: 0.15rem 0.35rem;
   line-height: 1;
 }
+
+
+/* v0.1.0 UI polish */
+.pf2e-atmosphere-forge {
+  min-width: 980px;
+}
+
+.atmosphere-forge-grid {
+  grid-template-columns: 0.9fr 2fr 0.75fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.atmosphere-forge-panel {
+  padding: 0.85rem;
+}
+
+.atmosphere-forge-preview-panel {
+  min-width: 0;
+}
+
+.atmosphere-forge-section-list {
+  gap: 0.8rem;
+}
+
+.atmosphere-forge-section,
+.atmosphere-forge-chat-section {
+  padding: 0.85rem;
+}
+
+.atmosphere-forge-section h4 {
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--color-border-light-primary);
+}
+
+.atmosphere-forge-section p {
+  font-size: 1.02em;
+  line-height: 1.45;
+}
+
+.atmosphere-forge-meta {
+  margin-bottom: 0.75rem;
+}
+
+.atmosphere-forge-panel:last-child button {
+  min-height: 2.15rem;
+}
+
+@media (max-width: 1050px) {
+  .pf2e-atmosphere-forge {
+    min-width: unset;
+  }
+
+  .atmosphere-forge-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* v0.1.0 UI layout fix */
+.atmosphere-forge-grid {
+  grid-template-columns: 1.2fr 1.7fr 0.75fr;
+}
+
+.atmosphere-forge-panel:first-child {
+  min-width: 340px;
+}
+
+.atmosphere-forge-panel:last-child {
+  min-width: 190px;
+}
+
+
+/* v0.1.0 compact scene-parameter controls */
+.atmosphere-forge-compact-select {
+  margin-top: -0.25rem;
+}
+
+.atmosphere-forge-compact-select select {
+  width: 100%;
+}
+
+.atmosphere-forge-checkbox-row {
+  margin-bottom: 0.25rem;
+}
+
+
+/* v0.1.0 preview scroll polish */
+.atmosphere-forge-preview-panel {
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.atmosphere-forge-section-list {
+  overflow-y: auto;
+  min-height: 0;
+  padding-right: 0.25rem;
+}
+
+.atmosphere-forge-empty {
+  overflow-y: auto;
+}
