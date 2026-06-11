@@ -49,7 +49,7 @@ export class AtmosphereService {
       weather: useWeather ? this.#pick(atmosphere?.weather?.[weather]) : "",
       timeOfDay: useTimeOfDay ? this.#pick(atmosphere?.timeOfDay?.[timeOfDay]) : "",
       season: useSeason ? this.#pick(atmosphere?.season?.[season]) : "",
-      detail: this.#pick(atmosphere?.[intensityKey]?.detail)
+      detail: this.#pickDetail(atmosphere, intensityKey)
     };
 
     const sections = [
@@ -143,10 +143,12 @@ export class AtmosphereService {
       weather: sceneParameters.useWeather ? atmosphere?.weather?.[sceneParameters.weather] : [],
       timeOfDay: sceneParameters.useTimeOfDay ? atmosphere?.timeOfDay?.[sceneParameters.timeOfDay] : [],
       season: sceneParameters.useSeason ? atmosphere?.season?.[sceneParameters.season] : [],
-      detail: atmosphere?.[intensityKey]?.detail
+      detail: null
     }[sectionId];
 
-    const newKey = this.#pick(keyPath);
+    const newKey = sectionId === "detail"
+      ? this.#pickDetail(atmosphere, intensityKey)
+      : this.#pick(keyPath);
     const newText = this.#localizeKey(newKey);
     if (!newText) return previousResult;
 
@@ -168,6 +170,26 @@ export class AtmosphereService {
       },
       text
     };
+  }
+
+
+  static #pickDetail(atmosphere, intensityKey) {
+    const detailData = atmosphere?.[intensityKey]?.detail;
+
+    if (Array.isArray(detailData)) {
+      return this.#pick(detailData);
+    }
+
+    if (detailData && typeof detailData === "object") {
+      const pools = Object.values(detailData)
+        .filter((pool) => Array.isArray(pool) && pool.length);
+
+      if (pools.length) {
+        return this.#pick(this.#pick(pools));
+      }
+    }
+
+    return "";
   }
 
   static async #loadAtmosphereData() {
