@@ -36,18 +36,43 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Smell9",
       "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Smell10"
     ],
-    "detail": [
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail3",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail4",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail5",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail6",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail7",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail8",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail9",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail10"
-    ]
+    "detail": {
+      "tracks": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.tracks.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.tracks.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.tracks.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.tracks.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.tracks.5"
+      ],
+      "objects": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.objects.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.objects.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.objects.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.objects.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.objects.5"
+      ],
+      "clues": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.clues.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.clues.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.clues.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.clues.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.clues.5"
+      ],
+      "oddities": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.oddities.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.oddities.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.oddities.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.oddities.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.oddities.5"
+      ],
+      "remains": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.remains.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.remains.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.remains.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.remains.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.calm.Detail.remains.5"
+      ]
+    }
   },
   "normal": {
     "atmosphere": [
@@ -86,18 +111,43 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Smell9",
       "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Smell10"
     ],
-    "detail": [
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail3",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail4",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail5",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail6",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail7",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail8",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail9",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail10"
-    ]
+    "detail": {
+      "tracks": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.tracks.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.tracks.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.tracks.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.tracks.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.tracks.5"
+      ],
+      "objects": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.objects.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.objects.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.objects.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.objects.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.objects.5"
+      ],
+      "clues": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.clues.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.clues.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.clues.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.clues.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.clues.5"
+      ],
+      "oddities": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.oddities.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.oddities.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.oddities.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.oddities.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.oddities.5"
+      ],
+      "remains": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.remains.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.remains.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.remains.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.remains.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.normal.Detail.remains.5"
+      ]
+    }
   },
   "tense": {
     "atmosphere": [
@@ -136,18 +186,43 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Smell9",
       "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Smell10"
     ],
-    "detail": [
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail3",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail4",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail5",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail6",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail7",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail8",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail9",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail10"
-    ]
+    "detail": {
+      "tracks": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.tracks.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.tracks.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.tracks.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.tracks.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.tracks.5"
+      ],
+      "objects": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.objects.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.objects.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.objects.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.objects.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.objects.5"
+      ],
+      "clues": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.clues.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.clues.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.clues.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.clues.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.clues.5"
+      ],
+      "oddities": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.oddities.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.oddities.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.oddities.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.oddities.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.oddities.5"
+      ],
+      "remains": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.remains.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.remains.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.remains.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.remains.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.tense.Detail.remains.5"
+      ]
+    }
   },
   "nightmare": {
     "atmosphere": [
@@ -186,18 +261,43 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Smell9",
       "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Smell10"
     ],
-    "detail": [
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail3",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail4",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail5",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail6",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail7",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail8",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail9",
-      "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail10"
-    ]
+    "detail": {
+      "tracks": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.tracks.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.tracks.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.tracks.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.tracks.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.tracks.5"
+      ],
+      "objects": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.objects.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.objects.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.objects.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.objects.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.objects.5"
+      ],
+      "clues": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.clues.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.clues.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.clues.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.clues.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.clues.5"
+      ],
+      "oddities": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.oddities.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.oddities.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.oddities.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.oddities.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.oddities.5"
+      ],
+      "remains": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.remains.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.remains.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.remains.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.remains.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.cave.nightmare.Detail.remains.5"
+      ]
+    }
   },
   "weather": {
     "clear": [
