@@ -140,6 +140,28 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
   static async #onReloadWeather(event, target) {
     event.preventDefault();
 
+    const form = this.element;
+    if (form) {
+      const weatherSelection = form.querySelector("[name='weather']")?.value ?? this.#formState.weatherSelection ?? this.#formState.weather;
+      const timeOfDaySelection = form.querySelector("[name='timeOfDay']")?.value ?? this.#formState.timeOfDaySelection ?? this.#formState.timeOfDay;
+      const seasonSelection = form.querySelector("[name='season']")?.value ?? this.#formState.seasonSelection ?? this.#formState.season;
+
+      this.#formState = {
+        ...this.#formState,
+        environment: form.querySelector("[name='environment']")?.value ?? this.#formState.environment,
+        intensity: Number(form.querySelector("[name='intensity']")?.value ?? this.#formState.intensity),
+        useWeather: form.querySelector("[name='useWeather']")?.checked ?? this.#formState.useWeather,
+        weather: weatherSelection,
+        weatherSelection,
+        useTimeOfDay: form.querySelector("[name='useTimeOfDay']")?.checked ?? this.#formState.useTimeOfDay,
+        timeOfDay: timeOfDaySelection,
+        timeOfDaySelection,
+        useSeason: form.querySelector("[name='useSeason']")?.checked ?? this.#formState.useSeason,
+        season: seasonSelection,
+        seasonSelection
+      };
+    }
+
     this.#weatherContext = WeatherContextService.getContext();
 
     if (this.#weatherContext.weather && this.#weatherContext.weather !== "auto") {
