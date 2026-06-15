@@ -36,18 +36,43 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Smell9",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Smell10"
     ],
-    "detail": [
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail3",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail4",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail5",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail6",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail7",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail8",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail9",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail10"
-    ]
+    "detail": {
+      "tracks": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.tracks.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.tracks.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.tracks.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.tracks.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.tracks.5"
+      ],
+      "objects": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.objects.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.objects.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.objects.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.objects.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.objects.5"
+      ],
+      "clues": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.clues.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.clues.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.clues.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.clues.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.clues.5"
+      ],
+      "oddities": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.oddities.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.oddities.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.oddities.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.oddities.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.oddities.5"
+      ],
+      "remains": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.remains.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.remains.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.remains.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.remains.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.calm.Detail.remains.5"
+      ]
+    }
   },
   "normal": {
     "atmosphere": [
@@ -86,18 +111,43 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Smell9",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Smell10"
     ],
-    "detail": [
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail3",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail4",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail5",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail6",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail7",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail8",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail9",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail10"
-    ]
+    "detail": {
+      "tracks": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.tracks.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.tracks.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.tracks.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.tracks.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.tracks.5"
+      ],
+      "objects": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.objects.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.objects.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.objects.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.objects.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.objects.5"
+      ],
+      "clues": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.clues.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.clues.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.clues.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.clues.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.clues.5"
+      ],
+      "oddities": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.oddities.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.oddities.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.oddities.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.oddities.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.oddities.5"
+      ],
+      "remains": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.remains.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.remains.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.remains.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.remains.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.normal.Detail.remains.5"
+      ]
+    }
   },
   "tense": {
     "atmosphere": [
@@ -136,18 +186,43 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Smell9",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Smell10"
     ],
-    "detail": [
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail3",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail4",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail5",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail6",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail7",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail8",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail9",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail10"
-    ]
+    "detail": {
+      "tracks": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.tracks.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.tracks.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.tracks.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.tracks.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.tracks.5"
+      ],
+      "objects": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.objects.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.objects.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.objects.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.objects.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.objects.5"
+      ],
+      "clues": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.clues.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.clues.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.clues.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.clues.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.clues.5"
+      ],
+      "oddities": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.oddities.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.oddities.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.oddities.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.oddities.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.oddities.5"
+      ],
+      "remains": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.remains.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.remains.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.remains.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.remains.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.tense.Detail.remains.5"
+      ]
+    }
   },
   "nightmare": {
     "atmosphere": [
@@ -186,18 +261,43 @@
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Smell9",
       "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Smell10"
     ],
-    "detail": [
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail1",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail2",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail3",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail4",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail5",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail6",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail7",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail8",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail9",
-      "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail10"
-    ]
+    "detail": {
+      "tracks": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.tracks.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.tracks.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.tracks.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.tracks.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.tracks.5"
+      ],
+      "objects": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.objects.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.objects.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.objects.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.objects.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.objects.5"
+      ],
+      "clues": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.clues.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.clues.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.clues.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.clues.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.clues.5"
+      ],
+      "oddities": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.oddities.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.oddities.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.oddities.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.oddities.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.oddities.5"
+      ],
+      "remains": [
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.remains.1",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.remains.2",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.remains.3",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.remains.4",
+        "PF2EATMOSPHEREFORGE.Atmospheres.wilderness.nightmare.Detail.remains.5"
+      ]
+    }
   },
   "weather": {
     "clear": [
