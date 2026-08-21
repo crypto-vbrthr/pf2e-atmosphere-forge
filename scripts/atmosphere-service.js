@@ -36,7 +36,18 @@ export class AtmosphereService {
     }));
   }
 
-  static async generate({ environment = "forest", intensity = 50, useWeather = false, weather = "auto", useTimeOfDay = false, timeOfDay = "auto", useSeason = false, season = "auto" } = {}) {
+  static async generate({
+    environment = "forest",
+    intensity = 50,
+    useWeather = false,
+    weather = "auto",
+    useTimeOfDay = false,
+    timeOfDay = "auto",
+    useSeason = false,
+    season = "auto",
+    cityContextText = "",
+    cityContextMeta = null
+  } = {}) {
     if (!this.#data.size) await this.#loadAtmosphereData();
 
     const intensityKey = this.#getIntensityKey(Number(intensity));
@@ -49,6 +60,7 @@ export class AtmosphereService {
       weather: useWeather ? this.#pick(atmosphere?.weather?.[weather]) : "",
       timeOfDay: useTimeOfDay ? this.#pick(atmosphere?.timeOfDay?.[timeOfDay]) : "",
       season: useSeason ? this.#pick(atmosphere?.season?.[season]) : "",
+      localContext: "",
       detail: this.#pickDetail(atmosphere, intensityKey)
     };
 
@@ -57,43 +69,57 @@ export class AtmosphereService {
         id: "atmosphere",
         icon: "fa-solid fa-smog",
         label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Atmosphere"),
-        text: this.#localizeKey(selectedKeys.atmosphere)
+        text: this.#localizeKey(selectedKeys.atmosphere),
+        rerollable: true
       },
       {
         id: "sound",
         icon: "fa-solid fa-volume-high",
         label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Sound"),
-        text: this.#localizeKey(selectedKeys.sound)
+        text: this.#localizeKey(selectedKeys.sound),
+        rerollable: true
       },
       {
         id: "smell",
         icon: "fa-solid fa-wind",
         label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Smell"),
-        text: this.#localizeKey(selectedKeys.smell)
+        text: this.#localizeKey(selectedKeys.smell),
+        rerollable: true
       },
       {
         id: "weather",
         icon: "fa-solid fa-cloud",
         label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Weather"),
-        text: this.#localizeKey(selectedKeys.weather)
+        text: this.#localizeKey(selectedKeys.weather),
+        rerollable: true
       },
       {
         id: "timeOfDay",
         icon: "fa-solid fa-clock",
         label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.TimeOfDay"),
-        text: this.#localizeKey(selectedKeys.timeOfDay)
+        text: this.#localizeKey(selectedKeys.timeOfDay),
+        rerollable: true
       },
       {
         id: "season",
         icon: "fa-solid fa-leaf",
         label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Season"),
-        text: this.#localizeKey(selectedKeys.season)
+        text: this.#localizeKey(selectedKeys.season),
+        rerollable: true
+      },
+      {
+        id: "localContext",
+        icon: "fa-solid fa-city",
+        label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.LocalContext"),
+        text: String(cityContextText ?? "").trim(),
+        rerollable: false
       },
       {
         id: "detail",
         icon: "fa-solid fa-eye",
         label: game.i18n.localize("PF2EATMOSPHEREFORGE.Section.Detail"),
-        text: this.#localizeKey(selectedKeys.detail)
+        text: this.#localizeKey(selectedKeys.detail),
+        rerollable: true
       }
     ].filter((section) => Boolean(section.text));
 
@@ -122,6 +148,7 @@ export class AtmosphereService {
       sections,
       selectedKeys,
       sceneParameters,
+      cityContextMeta: cityContextMeta ? structuredClone(cityContextMeta) : null,
       text: text || game.i18n.localize("PF2EATMOSPHEREFORGE.Preview.GenerationFailed")
     };
   }
@@ -129,6 +156,8 @@ export class AtmosphereService {
 
   static async rerollSection(previousResult, sectionId) {
     if (!previousResult) return null;
+    const targetSection = previousResult.sections?.find((section) => section.id === sectionId);
+    if (targetSection?.rerollable === false) return previousResult;
     if (!this.#data.size) await this.#loadAtmosphereData();
 
     const environment = previousResult.environment ?? "forest";

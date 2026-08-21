@@ -1,8 +1,8 @@
 {
   "id": "pf2e-atmosphere-forge",
   "title": "PF2E Atmosphere Forge",
-  "description": "A lightweight atmosphere generator for Foundry VTT, designed for quick scene descriptions and optional integration with PF2E Weather Forge.",
-  "version": "0.1.0",
+  "description": "A lightweight PF2e atmosphere generator for Foundry VTT with optional City Forge settlement/state context and Weather Forge current-weather integration.",
+  "version": "0.2.1",
   "authors": [
     {
       "name": "crypto-vbrthr",
@@ -33,5 +33,10 @@
   ],
   "url": "https://github.com/crypto-vbrthr/pf2e-atmosphere-forge",
   "manifest": "https://raw.githubusercontent.com/crypto-vbrthr/pf2e-atmosphere-forge/main/module.json",
-  "download": ""
+  "download": "https://github.com/crypto-vbrthr/pf2e-atmosphere-forge/releases/download/v0.2.1/pf2e-atmosphere-forge.zip",
+  "type": "module",
+  "relationships": {
+    "requires": [],
+    "recommends": []
+  }
 }

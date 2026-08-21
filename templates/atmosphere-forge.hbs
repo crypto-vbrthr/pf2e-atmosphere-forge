@@ -6,6 +6,62 @@
 
   <div class="atmosphere-forge-grid">
     <aside class="atmosphere-forge-panel">
+      <h3>{{localize "PF2EATMOSPHEREFORGE.CityForge.Title"}}</h3>
+
+      <div class="form-group">
+        <label>{{localize "PF2EATMOSPHEREFORGE.CityForge.SourceLabel"}}</label>
+        <select name="citySourceMode">
+          {{#each citySourceModes}}
+            <option value="{{id}}" {{#if selected}}selected{{/if}}>{{label}}</option>
+          {{/each}}
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>{{localize "PF2EATMOSPHEREFORGE.CityForge.Settlement"}}</label>
+        <select name="citySettlementId">
+          {{#each citySettlements}}
+            <option value="{{id}}" {{#if selected}}selected{{/if}}>{{label}}</option>
+          {{/each}}
+        </select>
+        <p class="atmosphere-forge-help">{{localize "PF2EATMOSPHEREFORGE.CityForge.SettlementHint"}}</p>
+      </div>
+
+      <div class="atmosphere-forge-city-context {{#if cityIntegration.resolved}}is-resolved{{/if}}">
+        <div class="atmosphere-forge-context-heading">
+          <span><i class="fa-solid fa-city"></i> {{localize "PF2EATMOSPHEREFORGE.CityForge.Context"}}</span>
+          <span>{{cityIntegration.reasonLabel}}</span>
+        </div>
+
+        {{#if cityIntegration.path}}
+          <strong class="atmosphere-forge-context-path">{{cityIntegration.path}}</strong>
+        {{/if}}
+
+        {{#if cityIntegration.resolved}}
+          <dl>
+            {{#if cityIntegration.region}}
+              <dt>{{localize "PF2EATMOSPHEREFORGE.CityForge.Region"}}</dt><dd>{{cityIntegration.region}}</dd>
+            {{/if}}
+            {{#if cityIntegration.terrain}}
+              <dt>{{localize "PF2EATMOSPHEREFORGE.CityForge.Terrain"}}</dt><dd>{{cityIntegration.terrain}}</dd>
+            {{/if}}
+            <dt>{{localize "PF2EATMOSPHEREFORGE.CityForge.DerivedEnvironment"}}</dt><dd>{{cityIntegration.derivedEnvironmentLabel}}</dd>
+            <dt>{{localize "PF2EATMOSPHEREFORGE.CityForge.SuggestedIntensity"}}</dt>
+            <dd>{{cityIntegration.suggestedIntensity}} · {{cityIntegration.suggestedIntensityLabel}}</dd>
+            <dt>{{localize "PF2EATMOSPHEREFORGE.CityForge.ActiveConditions"}}</dt><dd>{{cityIntegration.conditionCount}}</dd>
+            <dt>{{localize "PF2EATMOSPHEREFORGE.CityForge.ActiveThreats"}}</dt><dd>{{cityIntegration.threatCount}}</dd>
+          </dl>
+        {{/if}}
+      </div>
+
+      <div class="atmosphere-forge-city-options">
+        <label><input type="checkbox" name="useCityEnvironment" {{#if useCityEnvironment}}checked{{/if}}> {{localize "PF2EATMOSPHEREFORGE.CityForge.UseEnvironment"}}</label>
+        <label><input type="checkbox" name="useCityIntensity" {{#if useCityIntensity}}checked{{/if}}> {{localize "PF2EATMOSPHEREFORGE.CityForge.UseIntensity"}}</label>
+        <label><input type="checkbox" name="includeCityContext" {{#if includeCityContext}}checked{{/if}}> {{localize "PF2EATMOSPHEREFORGE.CityForge.IncludeContext"}}</label>
+      </div>
+
+      <hr>
+
       <h3>{{localize "PF2EATMOSPHEREFORGE.Settings.Title"}}</h3>
 
       <div class="form-group">
@@ -15,91 +71,92 @@
             <option value="{{this.id}}" {{#if (eq this.id ../selectedEnvironment)}}selected{{/if}}>{{this.label}}</option>
           {{/each}}
         </select>
+        <p class="atmosphere-forge-help">
+          {{localize "PF2EATMOSPHEREFORGE.Settings.EffectiveEnvironment"}}: <strong>{{effectiveEnvironmentLabel}}</strong>
+        </p>
       </div>
 
       <div class="form-group">
         <label>{{localize "PF2EATMOSPHEREFORGE.Settings.Intensity"}}</label>
-        <input type="range" name="intensity" min="0" max="100" value="{{selectedIntensity}}" />
+        <input type="range" name="intensity" min="0" max="100" value="{{selectedIntensity}}">
+        <p class="atmosphere-forge-help">
+          {{localize "PF2EATMOSPHEREFORGE.Settings.EffectiveIntensity"}}:
+          <strong>{{effectiveIntensity}} · {{effectiveIntensityLabel}}</strong>
+        </p>
       </div>
 
-      <hr />
+      <hr>
 
       <h3>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Title"}}</h3>
 
       <div class="form-group atmosphere-forge-checkbox-row">
         <label>
-          <input type="checkbox" name="useWeather" {{#if useWeather}}checked{{/if}} />
+          <input type="checkbox" name="useWeather" {{#if useWeather}}checked{{/if}}>
           {{localize "PF2EATMOSPHEREFORGE.SceneParameters.UseWeather"}}
         </label>
       </div>
-
       <div class="form-group atmosphere-forge-compact-select">
         <select name="weather" {{#unless useWeather}}disabled{{/unless}}>
           {{#each weatherOptions}}
             <option value="{{this.id}}" {{#if (eq this.id ../selectedWeather)}}selected{{/if}}>{{this.label}}</option>
           {{/each}}
         </select>
-        {{#unless useWeather}}
-          <p class="atmosphere-forge-help">{{localize "PF2EATMOSPHEREFORGE.SceneParameters.WeatherDisabledHint"}}</p>
-        {{/unless}}
+        {{#unless useWeather}}<p class="atmosphere-forge-help">{{localize "PF2EATMOSPHEREFORGE.SceneParameters.WeatherDisabledHint"}}</p>{{/unless}}
       </div>
 
       <div class="form-group atmosphere-forge-checkbox-row">
         <label>
-          <input type="checkbox" name="useTimeOfDay" {{#if useTimeOfDay}}checked{{/if}} />
+          <input type="checkbox" name="useTimeOfDay" {{#if useTimeOfDay}}checked{{/if}}>
           {{localize "PF2EATMOSPHEREFORGE.SceneParameters.UseTimeOfDay"}}
         </label>
       </div>
-
       <div class="form-group atmosphere-forge-compact-select">
         <select name="timeOfDay" {{#unless useTimeOfDay}}disabled{{/unless}}>
           {{#each timeOfDayOptions}}
             <option value="{{this.id}}" {{#if (eq this.id ../selectedTimeOfDay)}}selected{{/if}}>{{this.label}}</option>
           {{/each}}
         </select>
-        {{#unless useTimeOfDay}}
-          <p class="atmosphere-forge-help">{{localize "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDayDisabledHint"}}</p>
-        {{/unless}}
+        {{#unless useTimeOfDay}}<p class="atmosphere-forge-help">{{localize "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDayDisabledHint"}}</p>{{/unless}}
+      </div>
 
       <div class="form-group atmosphere-forge-checkbox-row">
         <label>
-          <input type="checkbox" name="useSeason" {{#if useSeason}}checked{{/if}} />
+          <input type="checkbox" name="useSeason" {{#if useSeason}}checked{{/if}}>
           {{localize "PF2EATMOSPHEREFORGE.SceneParameters.UseSeason"}}
         </label>
       </div>
-
       <div class="form-group atmosphere-forge-compact-select">
         <select name="season" {{#unless useSeason}}disabled{{/unless}}>
           {{#each seasonOptions}}
             <option value="{{this.id}}" {{#if (eq this.id ../selectedSeason)}}selected{{/if}}>{{this.label}}</option>
           {{/each}}
         </select>
-        {{#unless useSeason}}
-          <p class="atmosphere-forge-help">{{localize "PF2EATMOSPHEREFORGE.SceneParameters.SeasonDisabledHint"}}</p>
-        {{/unless}}
-      </div>
+        {{#unless useSeason}}<p class="atmosphere-forge-help">{{localize "PF2EATMOSPHEREFORGE.SceneParameters.SeasonDisabledHint"}}</p>{{/unless}}
       </div>
 
       <div class="atmosphere-forge-status">
         {{#if weatherForgeActive}}
-          <i class="fa-solid fa-cloud-sun"></i>
-          {{localize "PF2EATMOSPHEREFORGE.WeatherForge.Active"}}
+          <div class="atmosphere-forge-context-heading">
+            <span><i class="fa-solid fa-cloud-sun"></i> {{localize "PF2EATMOSPHEREFORGE.WeatherForge.Active"}}</span>
+            <span>{{weatherContext.label}}</span>
+          </div>
 
           <div class="atmosphere-forge-weather-context">
-            <div>{{weatherContext.label}}</div>
             <div>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Weather"}}: {{weatherContext.weatherLabel}}</div>
             <div>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.TimeOfDay"}}: {{weatherContext.timeOfDayLabel}}</div>
             <div>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Season"}}: {{weatherContext.seasonLabel}}</div>
+            {{#if weatherContext.temperature}}<div>{{localize "PF2EATMOSPHEREFORGE.WeatherContext.Temperature"}}: {{weatherContext.temperature}} °C</div>{{/if}}
+            {{#if weatherContext.mismatch}}<div class="atmosphere-forge-context-warning"><i class="fa-solid fa-triangle-exclamation"></i> {{localize "PF2EATMOSPHEREFORGE.WeatherContext.Mismatch"}}</div>{{/if}}
           </div>
-
-          <button type="button" data-action="reloadWeather" class="atmosphere-forge-secondary-button">
-            <i class="fa-solid fa-rotate"></i>
-            {{localize "PF2EATMOSPHEREFORGE.Actions.ReloadWeather"}}
-          </button>
         {{else}}
           <i class="fa-solid fa-cloud"></i>
           {{localize "PF2EATMOSPHEREFORGE.WeatherForge.Inactive"}}
         {{/if}}
+
+        <button type="button" data-action="reloadContext" class="atmosphere-forge-secondary-button">
+          <i class="fa-solid fa-rotate"></i>
+          {{localize "PF2EATMOSPHEREFORGE.Actions.ReloadContext"}}
+        </button>
       </div>
     </aside>
 
@@ -110,6 +167,9 @@
         <div class="atmosphere-forge-meta">
           <span>{{result.environmentLabel}}</span>
           <span>{{result.intensityLabel}}</span>
+          {{#if result.cityContextMeta}}
+            <span><i class="fa-solid fa-city"></i> {{result.cityContextMeta.settlementName}}</span>
+          {{/if}}
           {{#if result.sceneParameters.useWeather}}
             <span>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Weather"}}: {{result.sceneParameters.weatherLabel}}</span>
           {{/if}}
@@ -127,9 +187,11 @@
               <h4>
                 <i class="{{this.icon}}"></i>
                 {{this.label}}
-                <button type="button" class="atmosphere-forge-reroll-section" data-action="rerollSection" data-section-id="{{this.id}}" title="{{localize "PF2EATMOSPHEREFORGE.Actions.RerollSection"}}">
-                  <i class="fa-solid fa-dice"></i>
-                </button>
+                {{#if this.rerollable}}
+                  <button type="button" class="atmosphere-forge-reroll-section" data-action="rerollSection" data-section-id="{{this.id}}" title="{{localize "PF2EATMOSPHEREFORGE.Actions.RerollSection"}}">
+                    <i class="fa-solid fa-dice"></i>
+                  </button>
+                {{/if}}
               </h4>
               <p>{{this.text}}</p>
             </section>

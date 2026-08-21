@@ -4,6 +4,9 @@
   <div class="atmosphere-forge-chat-meta">
     <span>{{environmentLabel}}</span>
     <span>{{intensityLabel}}</span>
+    {{#if cityContextMeta}}
+      <span><i class="fa-solid fa-city"></i> {{cityContextMeta.settlementName}}</span>
+    {{/if}}
     {{#if sceneParameters.useWeather}}
       <span>{{localize "PF2EATMOSPHEREFORGE.SceneParameters.Weather"}}: {{sceneParameters.weatherLabel}}</span>
     {{/if}}
