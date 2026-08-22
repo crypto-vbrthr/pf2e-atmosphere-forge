@@ -5339,7 +5339,7 @@
       "ActiveConditions": "Aktive Bedingungen",
       "ActiveThreats": "Aktive Bedrohungen",
       "UseEnvironment": "Umgebung aus City Forge ableiten",
-      "UseIntensity": "Intensität aus Siedlungszustand ableiten",
+      "UseIntensity": "City-Forge-Intensität als Vorschlag übernehmen",
       "IncludeContext": "Siedlungszustand in die Ausgabe aufnehmen",
       "Status": {
         "city-scene": "City Forge · aktive Scene",
@@ -5371,7 +5371,10 @@
         "scene": "Automatisch über aktive Scene",
         "settlement": "City-Forge-Siedlung",
         "manual": "Manuell / keine City Forge"
-      }
+      },
+      "IntensityHint": "Die City Forge belegt den Regler mit einem Vorschlag vor. Der Regler bleibt vollständig manuell anpassbar.",
+      "IntensityFromSuggestion": "City-Forge-Vorschlag",
+      "IntensityManualOverride": "manuell angepasst"
     },
     "CityNarrative": {
       "Mood": {

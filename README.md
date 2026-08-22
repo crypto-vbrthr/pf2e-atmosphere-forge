@@ -1,4 +1,4 @@
-# PF2E Atmosphere Forge 0.2.1
+# PF2E Atmosphere Forge 0.2.2
 
 Atmosphere Forge generates quick PF2e scene atmosphere descriptions for Foundry VTT.
 
@@ -61,3 +61,10 @@ See `CITY-WEATHER-INTEGRATION.md` for the complete contract.
 ## 0.2.1 localization/layout hotfix
 
 The 0.2.0 integration build exposed that Atmosphere Forge's old flat dotted localization files were not being resolved by the current Foundry runtime. 0.2.1 converts the full DE/EN catalog to nested Foundry translation objects and hardens the expanded three-column UI against overflow.
+
+
+## 0.2.2 City intensity suggestion behavior
+
+City Forge no longer supplies a hidden intensity value that overrides the visible slider.
+
+When City intensity suggestions are enabled, the current City-derived intensity pre-fills the slider. From that point onward the slider is authoritative and can be adjusted freely. Changing City context or explicitly refreshing/re-enabling the suggestion applies the latest suggestion again.

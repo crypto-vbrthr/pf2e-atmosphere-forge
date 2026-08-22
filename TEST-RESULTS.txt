@@ -1,174 +1,197 @@
-PF2e Atmosphere Forge 0.2.1 – Test Results
-Generated: 2026-08-21T15:19:20
+PF2e Atmosphere Forge 0.2.2 – Test Results
+Generated: 2026-08-22T09:37:01
 
-Automated Node tests: 23/23 passed
+Automated Node tests: 28/28 passed
 JavaScript syntax checks: 5/5 passed
 JSON parse checks: PASS
-Nested DE/EN localization audit: PASS
-Localization leaf-key parity: PASS
-Handlebars structure audit: PASS
-Responsive three-column layout audit: PASS
-CSS isolation: 85/85 selectors scoped
+City-intensity slider prefill regression: PASS
+Manual slider override regression: PASS
+Generation uses visible slider regression: PASS
+City-context reset/reapply regression: PASS
+DE/EN localization parse: PASS
 
 
-> pf2e-atmosphere-forge@0.2.1 test
+> pf2e-atmosphere-forge@0.2.2 test
 > node --test tests/*.test.js
 
 TAP version 13
 # Subtest: specific City location type drives environment before settlement type
 ok 1 - specific City location type drives environment before settlement type
   ---
-  duration_ms: 1.459221
+  duration_ms: 1.206966
   type: 'test'
   ...
 # Subtest: port/dock context derives coast environment
 ok 2 - port/dock context derives coast environment
   ---
-  duration_ms: 0.378184
+  duration_ms: 0.360954
   type: 'test'
   ...
 # Subtest: settlement type is the fallback for civilized places
 ok 3 - settlement type is the fallback for civilized places
   ---
-  duration_ms: 0.386279
+  duration_ms: 0.318541
   type: 'test'
   ...
 # Subtest: unstable settlement state raises suggested intensity transparently
 ok 4 - unstable settlement state raises suggested intensity transparently
   ---
-  duration_ms: 0.820919
+  duration_ms: 0.599858
   type: 'test'
   ...
 # Subtest: positive state can lower atmosphere intensity
 ok 5 - positive state can lower atmosphere intensity
   ---
-  duration_ms: 0.367628
+  duration_ms: 0.353563
   type: 'test'
   ...
 # Subtest: City narrative includes state, named conditions/threats and hostile faction pressure
 ok 6 - City narrative includes state, named conditions/threats and hostile faction pressure
   ---
-  duration_ms: 0.611178
+  duration_ms: 0.528793
   type: 'test'
   ...
 # Subtest: manual source mode never consumes City Forge context
 ok 7 - manual source mode never consumes City Forge context
   ---
-  duration_ms: 0.570506
+  duration_ms: 0.510385
+  type: 'test'
+  ...
+# Subtest: City suggestion pre-fills the form-state slider when no manual override exists
+ok 8 - City suggestion pre-fills the form-state slider when no manual override exists
+  ---
+  duration_ms: 1.921223
+  type: 'test'
+  ...
+# Subtest: generation uses the visible slider value instead of hidden City suggested intensity
+ok 9 - generation uses the visible slider value instead of hidden City suggested intensity
+  ---
+  duration_ms: 0.187167
+  type: 'test'
+  ...
+# Subtest: moving the intensity slider creates a manual override and updates visible value live
+ok 10 - moving the intensity slider creates a manual override and updates visible value live
+  ---
+  duration_ms: 0.227156
+  type: 'test'
+  ...
+# Subtest: changing City context or re-enabling City suggestion clears the manual override
+ok 11 - changing City context or re-enabling City suggestion clears the manual override
+  ---
+  duration_ms: 0.488313
+  type: 'test'
+  ...
+# Subtest: template explains suggestion versus manual override state
+ok 12 - template explains suggestion versus manual override state
+  ---
+  duration_ms: 0.187046
   type: 'test'
   ...
 # Subtest: DE/EN localization is nested and resolves core application keys
-ok 8 - DE/EN localization is nested and resolves core application keys
+ok 13 - DE/EN localization is nested and resolves core application keys
   ---
-  duration_ms: 0.938218
+  duration_ms: 0.723531
   type: 'test'
   ...
 # Subtest: nested DE/EN localization still has identical leaf-key contracts
-ok 9 - nested DE/EN localization still has identical leaf-key contracts
+ok 14 - nested DE/EN localization still has identical leaf-key contracts
   ---
-  duration_ms: 15.684427
+  duration_ms: 14.78299
   type: 'test'
   ...
 # Subtest: template and app use non-colliding source label/options keys
-ok 10 - template and app use non-colliding source label/options keys
+ok 15 - template and app use non-colliding source label/options keys
   ---
-  duration_ms: 0.286289
+  duration_ms: 0.197643
   type: 'test'
   ...
 # Subtest: expanded Atmosphere Forge UI uses bounded responsive columns
-ok 11 - expanded Atmosphere Forge UI uses bounded responsive columns
+ok 16 - expanded Atmosphere Forge UI uses bounded responsive columns
   ---
-  duration_ms: 0.343593
+  duration_ms: 0.247627
   type: 'test'
   ...
 # Subtest: release manifest is Atmosphere Forge 0.2.0 without hard City/Weather dependencies
-ok 12 - release manifest is Atmosphere Forge 0.2.0 without hard City/Weather dependencies
+ok 17 - release manifest is Atmosphere Forge 0.2.0 without hard City/Weather dependencies
   ---
-  duration_ms: 0.671028
+  duration_ms: 1.295537
   type: 'test'
   ...
 # Subtest: German and English localization key contracts remain identical
-ok 13 - German and English localization key contracts remain identical
+ok 18 - German and English localization key contracts remain identical
   ---
-  duration_ms: 1.053989
+  duration_ms: 0.571096
   type: 'test'
   ...
 # Subtest: deterministic local-context sections are not rerolled
-ok 14 - deterministic local-context sections are not rerolled
+ok 19 - deterministic local-context sections are not rerolled
   ---
-  duration_ms: 0.647513
+  duration_ms: 0.916717
   type: 'test'
   ...
 # Subtest: Atmosphere Forge exposes City source and explicit settlement controls
-ok 15 - Atmosphere Forge exposes City source and explicit settlement controls
+ok 20 - Atmosphere Forge exposes City source and explicit settlement controls
   ---
-  duration_ms: 1.867216
+  duration_ms: 1.551386
   type: 'test'
   ...
 # Subtest: City environment, intensity and local-context output are individually optional
-ok 16 - City environment, intensity and local-context output are individually optional
+ok 21 - City environment, intensity and local-context output are individually optional
   ---
-  duration_ms: 0.187033
+  duration_ms: 0.164483
   type: 'test'
   ...
 # Subtest: City local context is displayed but has no reroll button
-ok 17 - City local context is displayed but has no reroll button
+ok 22 - City local context is displayed but has no reroll button
   ---
-  duration_ms: 0.123506
+  duration_ms: 0.12853
   type: 'test'
   ...
 # Subtest: chat output carries City settlement provenance
-ok 18 - chat output carries City settlement provenance
+ok 23 - chat output carries City settlement provenance
   ---
-  duration_ms: 0.08008
+  duration_ms: 0.082051
   type: 'test'
   ...
 # Subtest: public API advertises City and Weather integrations
-ok 19 - public API advertises City and Weather integrations
+ok 24 - public API advertises City and Weather integrations
   ---
-  duration_ms: 0.232729
+  duration_ms: 0.316778
   type: 'test'
   ...
 # Subtest: open app rerenders on Scene, City and Weather changes
-ok 20 - open app rerenders on Scene, City and Weather changes
+ok 25 - open app rerenders on Scene, City and Weather changes
   ---
-  duration_ms: 0.179769
+  duration_ms: 0.113939
   type: 'test'
   ...
 # Subtest: Weather Forge precipitation maps to Atmosphere Forge categories
-ok 21 - Weather Forge precipitation maps to Atmosphere Forge categories
+ok 26 - Weather Forge precipitation maps to Atmosphere Forge categories
   ---
-  duration_ms: 0.586154
+  duration_ms: 0.597274
   type: 'test'
   ...
 # Subtest: Weather Forge dayparts and seasons normalize directly
-ok 22 - Weather Forge dayparts and seasons normalize directly
+ok 27 - Weather Forge dayparts and seasons normalize directly
   ---
-  duration_ms: 0.162393
+  duration_ms: 0.136723
   type: 'test'
   ...
 # Subtest: Atmosphere Forge prefers Weather Forge 1.1.x current-weather API
-ok 23 - Atmosphere Forge prefers Weather Forge 1.1.x current-weather API
+ok 28 - Atmosphere Forge prefers Weather Forge 1.1.x current-weather API
   ---
-  duration_ms: 1.866576
+  duration_ms: 1.187828
   type: 'test'
   ...
-1..23
-# tests 23
+1..28
+# tests 28
 # suites 0
-# pass 23
+# pass 28
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 136.423101
-
-Release contract:
-- Atmosphere Forge version: 0.2.1
-- Public API: v1
-- City Forge integration: designed for 0.8.2+
-- Weather Forge integration: designed for 1.1.3+
-- No persistent data migration
+# duration_ms 187.790755
 
 Runtime note:
 - No live Foundry/PF2e runtime smoke test was performed in this build environment.

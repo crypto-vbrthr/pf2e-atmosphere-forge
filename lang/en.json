@@ -5339,7 +5339,7 @@
       "ActiveConditions": "Active conditions",
       "ActiveThreats": "Active threats",
       "UseEnvironment": "Derive environment from City Forge",
-      "UseIntensity": "Derive intensity from settlement state",
+      "UseIntensity": "Use City Forge intensity as a suggestion",
       "IncludeContext": "Include settlement state in output",
       "Status": {
         "city-scene": "City Forge · active Scene",
@@ -5371,7 +5371,10 @@
         "scene": "Automatic from active Scene",
         "settlement": "City Forge settlement",
         "manual": "Manual / no City Forge"
-      }
+      },
+      "IntensityHint": "City Forge pre-fills the slider with a suggestion. The slider remains fully adjustable.",
+      "IntensityFromSuggestion": "City Forge suggestion",
+      "IntensityManualOverride": "manually adjusted"
     },
     "CityNarrative": {
       "Mood": {

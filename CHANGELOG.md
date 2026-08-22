@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.2.2
+
+### Fixed
+- City-derived intensity now pre-fills the visible intensity slider instead of bypassing it internally.
+- Moving the intensity slider now always changes the intensity used for generation.
+- The current slider value and intensity band update live while dragging.
+- Manual slider movement is treated as an explicit override of the City Forge suggestion.
+- Changing City source, selected settlement, re-enabling City intensity, or reloading context resets the override and applies the latest City suggestion again.
+
+### UX
+- Renamed the option to make its semantics explicit: City Forge provides an intensity suggestion, not a locked automatic value.
+- Added labels showing whether the current slider value comes from the City suggestion or has been manually adjusted.
+
+### Compatibility
+- Public API remains v1.
+- City Forge integration remains designed for 0.8.2+.
+- Weather Forge integration remains designed for 1.1.3+.
+- No persistent data migration is required.
+
 ## 0.2.1
 
 ### Fixed

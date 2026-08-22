@@ -13,6 +13,7 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
   #formState = {
     environment: "forest",
     intensity: 50,
+    intensityOverride: false,
     useCityEnvironment: true,
     useCityIntensity: true,
     includeCityContext: true,
@@ -64,9 +65,16 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       ? this.#cityContext.derivedEnvironment
       : this.#formState.environment;
 
-    const effectiveIntensity = cityResolved && this.#formState.useCityIntensity
-      ? this.#cityContext.suggestedIntensity
-      : this.#formState.intensity;
+    if (
+      cityResolved
+      && this.#formState.useCityIntensity
+      && !this.#formState.intensityOverride
+      && Number.isFinite(Number(this.#cityContext.suggestedIntensity))
+    ) {
+      this.#formState.intensity = Number(this.#cityContext.suggestedIntensity);
+    }
+
+    const effectiveIntensity = this.#formState.intensity;
 
     return {
       moduleId: MODULE_ID,
@@ -103,6 +111,8 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
 
       selectedEnvironment: this.#formState.environment,
       selectedIntensity: this.#formState.intensity,
+      intensityOverride: this.#formState.intensityOverride,
+      intensityUsesCitySuggestion: cityResolved && this.#formState.useCityIntensity && !this.#formState.intensityOverride,
       useCityEnvironment: this.#formState.useCityEnvironment,
       useCityIntensity: this.#formState.useCityIntensity,
       includeCityContext: this.#formState.includeCityContext,
@@ -163,6 +173,7 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
     citySource?.addEventListener("change", async () => {
       const mode = CITY_SOURCE_MODES.includes(citySource.value) ? citySource.value : "scene";
       await game.settings.set(MODULE_ID, "citySourceMode", mode);
+      this.#formState.intensityOverride = false;
       this.render({ force: true });
     }, { signal });
 
@@ -170,6 +181,7 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       const settlementId = String(citySettlement.value ?? "").trim();
       await game.settings.set(MODULE_ID, "citySettlementId", settlementId);
       if (settlementId) await game.settings.set(MODULE_ID, "citySourceMode", "settlement");
+      this.#formState.intensityOverride = false;
       this.render({ force: true });
     }, { signal });
 
@@ -180,11 +192,24 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
 
     useCityIntensity?.addEventListener("change", () => {
       this.#formState.useCityIntensity = useCityIntensity.checked;
+      this.#formState.intensityOverride = false;
       this.render({ force: true });
     }, { signal });
 
     includeCityContext?.addEventListener("change", () => {
       this.#formState.includeCityContext = includeCityContext.checked;
+    }, { signal });
+
+    const intensitySlider = form.querySelector("[name='intensity']");
+    const effectiveIntensityValue = form.querySelector("[data-effective-intensity-value]");
+    const effectiveIntensityLabel = form.querySelector("[data-effective-intensity-label]");
+
+    intensitySlider?.addEventListener("input", () => {
+      const value = Number(intensitySlider.value ?? 50);
+      this.#formState.intensity = value;
+      this.#formState.intensityOverride = true;
+      if (effectiveIntensityValue) effectiveIntensityValue.textContent = String(value);
+      if (effectiveIntensityLabel) effectiveIntensityLabel.textContent = intensityLabel(value);
     }, { signal });
 
     syncSceneParameterControls();
@@ -215,13 +240,12 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
     const environment = cityResolved && useCityEnvironment
       ? city.derivedEnvironment
       : manualEnvironment;
-    const intensity = cityResolved && useCityIntensity
-      ? city.suggestedIntensity
-      : manualIntensity;
+    const intensity = manualIntensity;
 
     app.#formState = {
       environment: manualEnvironment,
       intensity: manualIntensity,
+      intensityOverride: app.#formState.intensityOverride,
       useCityEnvironment,
       useCityIntensity,
       includeCityContext,
@@ -287,6 +311,8 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
     this.#weatherContext = await WeatherContextService.getContext();
     this.#cityContext = await CityContextService.getContext();
 
+    if (this.#formState.useCityIntensity) this.#formState.intensityOverride = false;
+
     if (this.#weatherContext.weather && this.#weatherContext.weather !== "auto") {
       this.#formState.useWeather = true;
       this.#formState.weather = this.#weatherContext.weather;
@@ -334,6 +360,7 @@ export class PF2eAtmosphereForgeApp extends HandlebarsApplicationMixin(Applicati
       ...this.#formState,
       environment: form.querySelector("[name='environment']")?.value ?? this.#formState.environment,
       intensity: Number(form.querySelector("[name='intensity']")?.value ?? this.#formState.intensity),
+      intensityOverride: this.#formState.intensityOverride,
       useCityEnvironment: form.querySelector("[name='useCityEnvironment']")?.checked ?? this.#formState.useCityEnvironment,
       useCityIntensity: form.querySelector("[name='useCityIntensity']")?.checked ?? this.#formState.useCityIntensity,
       includeCityContext: form.querySelector("[name='includeCityContext']")?.checked ?? this.#formState.includeCityContext,

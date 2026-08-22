@@ -57,6 +57,9 @@
       <div class="atmosphere-forge-city-options">
         <label><input type="checkbox" name="useCityEnvironment" {{#if useCityEnvironment}}checked{{/if}}> {{localize "PF2EATMOSPHEREFORGE.CityForge.UseEnvironment"}}</label>
         <label><input type="checkbox" name="useCityIntensity" {{#if useCityIntensity}}checked{{/if}}> {{localize "PF2EATMOSPHEREFORGE.CityForge.UseIntensity"}}</label>
+        {{#if cityIntegration.resolved}}
+          <small class="atmosphere-forge-help">{{localize "PF2EATMOSPHEREFORGE.CityForge.IntensityHint"}}</small>
+        {{/if}}
         <label><input type="checkbox" name="includeCityContext" {{#if includeCityContext}}checked{{/if}}> {{localize "PF2EATMOSPHEREFORGE.CityForge.IncludeContext"}}</label>
       </div>
 
@@ -81,7 +84,9 @@
         <input type="range" name="intensity" min="0" max="100" value="{{selectedIntensity}}">
         <p class="atmosphere-forge-help">
           {{localize "PF2EATMOSPHEREFORGE.Settings.EffectiveIntensity"}}:
-          <strong>{{effectiveIntensity}} · {{effectiveIntensityLabel}}</strong>
+          <strong><span data-effective-intensity-value>{{effectiveIntensity}}</span> · <span data-effective-intensity-label>{{effectiveIntensityLabel}}</span></strong>
+          {{#if intensityUsesCitySuggestion}}<small>({{localize "PF2EATMOSPHEREFORGE.CityForge.IntensityFromSuggestion"}})</small>{{/if}}
+          {{#if intensityOverride}}<small>({{localize "PF2EATMOSPHEREFORGE.CityForge.IntensityManualOverride"}})</small>{{/if}}
         </p>
       </div>
 
